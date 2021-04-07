@@ -65,3 +65,40 @@ summary %>% mutate(prop = sum/tot)  %>%  filter(status_cat == "on_site") %>%
   mutate(all_onsite = ifelse(prop ==1, 1,0)) %>% group_by(week, all_onsite) %>% summarize(n=n()) %>% mutate(n/sum(n)) %>%
   filter(all_onsite ==1)
 
+
+
+
+###############################################################
+######Creating School Directory for Public schools#############
+###############################################################
+#KC 4/7/2021
+
+#Read in excel files with public school districts and public schools from NCES database
+#https://nces.ed.gov/ccd/schoolsearch/school_list.asp?Search=1&State=41
+
+OR_PubSchDist <- read_excel("oregon_school_directory/Oregon_PubSchDist.xlsx")
+OR_PubSchList <- read_excel("oregon_school_directory/Oregon_PubSchList.xlsx")
+
+#Check distribution of schools per district
+OR_PubSchDist$Schools <- as.numeric(OR_PubSchDist$Schools)
+hist(OR_PubSchDist$Schools)
+
+
+#Merge directories to include district information with school list
+OR_totalsch <- merge(OR_PubSchList, OR_PubSchDist, by = "NCES District ID")
+
+sch_stat <- readRDS("oregon_status/school_stat_fall2020.RDS")
+
+
+#Check % of students in OR that are in districts that have some in-person
+
+summary[is.na(summary)] = "unknown"
+sum <- summary %>% mutate(onsite = ifelse(status_cat == "on_site", 1,0)) %>% 
+  group_by(district) %>% mutate(wk_onsite = sum(onsite)) %>% filter(row_number(district) == 1)
+OR_totalsch <- merge(OR_totalsch, sum, by.x = "District", by.y = "district")
+
+summary(OR_totalsch$onsite)
+sum(OR_totalsch$onsite)
+
+#Check % of students within each district with in-person that are actually in-person
+
