@@ -71,7 +71,7 @@ summary %>% mutate(prop = sum/tot)  %>%  filter(status_cat == "on_site") %>%
 ###############################################################
 ######Creating School Directory for Public schools#############
 ###############################################################
-#KC 4/7/2021
+#KC 4/8/2021
 
 #Read in excel files with public school districts and public schools from NCES database
 #https://nces.ed.gov/ccd/schoolsearch/school_list.asp?Search=1&State=41
@@ -88,17 +88,37 @@ hist(OR_PubSchDist$Schools)
 OR_totalsch <- merge(OR_PubSchList, OR_PubSchDist, by = "NCES District ID")
 
 sch_stat <- readRDS("oregon_status/school_stat_fall2020.RDS")
-
+summary <- sch_stat %>% group_by(district, week, status_cat) %>% 
+  summarize(sum=n()) %>% 
+  left_join(sch_stat %>% group_by(district, week) %>% summarize(tot = n()), 
+            by= c("district"="district", "week"="week"))
 
 #Check % of students in OR that are in districts that have some in-person
 
 summary[is.na(summary)] = "unknown"
-sum <- summary %>% mutate(onsite = ifelse(status_cat == "on_site", 1,0)) %>% 
+df1 <- summary %>% mutate(onsite = ifelse(status_cat == "on_site", 1,0)) %>% 
   group_by(district) %>% mutate(wk_onsite = sum(onsite)) %>% filter(row_number(district) == 1)
-OR_totalsch <- merge(OR_totalsch, sum, by.x = "District", by.y = "district")
+
+OR_totalsch <- merge(OR_totalsch, df1, by.x = "District", by.y = "district")
 
 summary(OR_totalsch$onsite)
 sum(OR_totalsch$onsite)
 
+
+OR_totalsch$Students_sch <- as.numeric(OR_totalsch$`Students*.x`)
+OR_totalsch$Students_sch[is.na(OR_totalsch$Students_sch)] = 0
+total_students <- sum(OR_totalsch$Students_sch)
+onsite_student <- sum(OR_totalsch$Students_sch[which(OR_totalsch$onsite == 1)])
+perc_onsite <- (onsite_student/total_students)*100
+
+
 #Check % of students within each district with in-person that are actually in-person
+OR_totalsch$Students_dist <- as.numeric(OR_totalsch$`Students*.y`)
+
+df2 <- OR_totalsch %>%  filter(onsite == 1) %>% group_by(District) %>%
+  mutate(students_onsite = sum(Students_sch)) %>% mutate(perc_onsite_dist = students_onsite/Students_dist) %>% 
+  filter(row_number(District) == 1)
+
+summary(df2$perc_onsite_dist)
+
 
