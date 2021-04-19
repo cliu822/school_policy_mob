@@ -14,31 +14,36 @@ census_age <- census %>% mutate(num_above14 = B01001e1-B01001e27-B01001e28-B0100
                                 prop25 = num_more25/num_above14) %>%
               select(census_block_group, B01001e1, num_above14, num_more25,num_less25, prop25)
 
-## Read in Georgia data
-df<- readRDS("patterns/splitdat/week/GA_2020_07_01.RDS")
-poi <- readRDS("poi/GA.RDS")
+## Read in POI and naics data
+poi <- readRDS("poi/poi_comb.RDS")
 naics <- read.csv("poi/naics.csv")
 
-## Filter on relevant NAIAC codesss
-poi <- poi %>% filter(!is.na(naics_code)) %>%  ## removed 2000 or so without naics code
+## Merge poi data with naics categorizations
+poi <- poi %>% filter(!is.na(naics_code)) %>%  ## removed 3611 or so without naics code
   
-  left_join(naics %>% select(sub_category, Cat), by="sub_category", all=F) %>% # categories of business
+  left_join(naics %>% select(naics_code, Cat), by="naics_code", all=F) %>% # categories of business
   
-  select(safegraph_place_id, top_category,sub_category,naics_code,latitude, longitude,Cat) %>% ## select columns
+  select(safegraph_place_id, top_category,sub_category,naics_code,latitude, longitude,Cat) %>% ## select columns, keep this line
   
   unique()
 
+
+
+## Filter on relevant NAIAC codesss
+
+
 ##
 filenames <- list.files(path = "patterns/splitdat/week", pattern = "RDS")
-state <- c("GA")
-weeks <- c("2020_07_01","2020_07_08","2020_07_15")
+state <- c("AL","GA","LA","MS","SC")
+weeks <- c("2020_07_01","2020_07_08","2020_07_15","2020_07_22","2020_07_29",
+           "2020_08_05","2020_08_12","2020_08_19","2020_08_26","2020_09_02")
 
 for (i in 1:length(state)){
     files <- filenames[which(grepl(paste(state[i],sep=""),filenames))]
     df99 <- list()
     for (n in 1: length(files)){
       dat <- readRDS(paste("patterns/splitdat/week/",files[n], sep=""))
-      dat <- dat %>% left_join(poi, by="safegraph_place_id") %>% filter(!is.na(Cat))
+      dat <- dat %>% left_join(poi, by="safegraph_place_id")
       df99[[n]] <- expand_cat_json(dat, 'visitor_home_cbgs', by="naics_code")
       df99[[n]]$week <- weeks[n]
       
@@ -50,25 +55,5 @@ for (i in 1:length(state)){
 }
 
 
-
-## Join naics code and categories with the data
-df1 <- df %>% left_join(poi, by="safegraph_place_id") %>% filter(!is.na(Cat))
-## Expand the census block group
-
-ex <- expand_cat_json(df1, 'visitor_home_cbgs', by="naics_code")
-
-
-
-
-
-
-#ex1 <- expand_cat_json(df1, 'visitor_home_cbgs', by="Cat")
-
-
-naics_code <- poi %>% select(naics_code, top_category, sub_category) %>% unique()
-naics_code2 <- poi %>% select(naics_code, top_category, sub_category,category_tags) %>% unique()
-
-write.csv(naics_code, "poi/naics.csv")
-write.csv(naics_code2,"poi/naics2.csv")
 
 

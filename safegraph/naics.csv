@@ -1,290 +1,335 @@
 naics_code,top_category,sub_category,Cat
-111421,"Greenhouse, Nursery, and Floriculture Production",Nursery and Tree Production,Unk
-115112,Support Activities for Crop Production,"Soil Preparation, Planting, and Cultivating",Unk
-221111,"Electric Power Generation, Transmission and Distribution",Hydroelectric Power Generation,E
-221112,"Electric Power Generation, Transmission and Distribution",Fossil Fuel Electric Power Generation,E
-221114,"Electric Power Generation, Transmission and Distribution",Solar Electric Power Generation,E
-236115,Residential Building Construction,New Single-Family Housing Construction (except For-Sale Builders),Unk
-236118,Residential Building Construction,Residential Remodelers,Unk
-237310,"Highway, Street, and Bridge Construction","Highway, Street, and Bridge Construction",Unk
-238140,"Foundation, Structure, and Building Exterior Contractors",Masonry Contractors,Unk
-238220,Building Equipment Contractors,"Plumbing, Heating, and Air-Conditioning Contractors",Unk
-238290,Building Equipment Contractors,Other Building Equipment Contractors,Unk
-238330,Building Finishing Contractors,Flooring Contractors,Unk
-311811,Bakeries and Tortilla Manufacturing,Retail Bakeries,Unk
-311991,Other Food Manufacturing,Perishable Prepared Food Manufacturing,Unk
-312113,Beverage Manufacturing,Ice Manufacturing,Unk
-312120,Beverage Manufacturing,Breweries,Unk
-312130,Beverage Manufacturing,Wineries,Unk
-314999,Other Textile Product Mills,All Other Miscellaneous Textile Product Mills,Unk
-316210,Footwear Manufacturing,Footwear Manufacturing,Unk
-316992,Other Leather and Allied Product Manufacturing,Women's Handbag and Purse Manufacturing,Unk
-316998,Other Leather and Allied Product Manufacturing,All Other Leather Good and Allied Product Manufacturing,Unk
-323111,Printing and Related Support Activities,Commercial Printing (except Screen and Books),Unk
-323113,Printing and Related Support Activities,Commercial Screen Printing,Unk
-323117,Printing and Related Support Activities,Books Printing,Unk
-325510,"Paint, Coating, and Adhesive Manufacturing",Paint and Coating Manufacturing,Unk
-327120,Clay Product and Refractory Manufacturing,Clay Building Material and Refractories Manufacturing,Unk
-331221,Steel Product Manufacturing from Purchased Steel,Rolled Steel Shape Manufacturing,Unk
-332313,Architectural and Structural Metals Manufacturing,Plate Work Manufacturing,Unk
-332510,Hardware Manufacturing,Hardware Manufacturing,Unk
-332812,"Coating, Engraving, Heat Treating, and Allied Activities","Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",Unk
-336111,Motor Vehicle Manufacturing,Automobile Manufacturing,Unk
-336120,Motor Vehicle Manufacturing,Heavy Duty Truck Manufacturing,Unk
-336411,Aerospace Product and Parts Manufacturing,Aircraft Manufacturing,Unk
-336999,Other Transportation Equipment Manufacturing,All Other Transportation Equipment Manufacturing,Unk
-339920,Other Miscellaneous Manufacturing,Sporting and Athletic Goods Manufacturing,Unk
-339950,Other Miscellaneous Manufacturing,Sign Manufacturing,Unk
-423110,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Automobile and Other Motor Vehicle Merchant Wholesalers,Unk
-423120,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Motor Vehicle Supplies and New Parts Merchant Wholesalers,Unk
-423130,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Tire and Tube Merchant Wholesalers,Unk
-423310,Lumber and Other Construction Materials Merchant Wholesalers,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers",Unk
-423330,Lumber and Other Construction Materials Merchant Wholesalers,"Roofing, Siding, and Insulation Material Merchant Wholesalers",Unk
-423390,Lumber and Other Construction Materials Merchant Wholesalers,Other Construction Material Merchant Wholesalers,Unk
-423450,Professional and Commercial Equipment and Supplies Merchant Wholesalers,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",Health
-423510,Metal and Mineral (except Petroleum) Merchant Wholesalers,Metal Service Centers and Other Metal Merchant Wholesalers,Unk
-423610,Household Appliances and Electrical and Electronic Goods Merchant Wholesalers,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",Unk
-423690,Household Appliances and Electrical and Electronic Goods Merchant Wholesalers,Other Electronic Parts and Equipment Merchant Wholesalers,Unk
-423710,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Hardware Merchant Wholesalers,Unk
-423720,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,Unk
-423730,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers,Unk
-423740,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Refrigeration Equipment and Supplies Merchant Wholesalers,Unk
-423810,"Machinery, Equipment, and Supplies Merchant Wholesalers",Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,Unk
-423820,"Machinery, Equipment, and Supplies Merchant Wholesalers",Farm and Garden Machinery and Equipment Merchant Wholesalers,Unk
-423830,"Machinery, Equipment, and Supplies Merchant Wholesalers",Industrial Machinery and Equipment Merchant Wholesalers,Unk
-423840,"Machinery, Equipment, and Supplies Merchant Wholesalers",Industrial Supplies Merchant Wholesalers,Unk
-423850,"Machinery, Equipment, and Supplies Merchant Wholesalers",Service Establishment Equipment and Supplies Merchant Wholesalers,Unk
-423910,Miscellaneous Durable Goods Merchant Wholesalers,Sporting and Recreational Goods and Supplies Merchant Wholesalers,Unk
-423930,Miscellaneous Durable Goods Merchant Wholesalers,Recyclable Material Merchant Wholesalers,Unk
-423940,Miscellaneous Durable Goods Merchant Wholesalers,"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers",Unk
-423990,Miscellaneous Durable Goods Merchant Wholesalers,Other Miscellaneous Durable Goods Merchant Wholesalers,Unk
-424210,Drugs and Druggists' Sundries Merchant Wholesalers,Drugs and Druggists' Sundries Merchant Wholesalers,Unk
-424320,"Apparel, Piece Goods, and Notions Merchant Wholesalers",Men's and Boys' Clothing and Furnishings Merchant Wholesalers,Unk
-424340,"Apparel, Piece Goods, and Notions Merchant Wholesalers",Footwear Merchant Wholesalers,Unk
-424490,Grocery and Related Product Merchant Wholesalers,Other Grocery and Related Products Merchant Wholesalers,Unk
-424690,Chemical and Allied Products Merchant Wholesalers,Other Chemical and Allied Products Merchant Wholesalers,Unk
-424720,Petroleum and Petroleum Products Merchant Wholesalers,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),Unk
-424910,Miscellaneous Nondurable Goods Merchant Wholesalers,Farm Supplies Merchant Wholesalers,Unk
-441110,Automobile Dealers,New Car Dealers,Unk
-441120,Automobile Dealers,Used Car Dealers,Unk
-441222,Other Motor Vehicle Dealers,Boat Dealers,Unk
-441228,Other Motor Vehicle Dealers,"Motorcycle, ATV, and All Other Motor Vehicle Dealers",Unk
-441310,"Automotive Parts, Accessories, and Tire Stores",Automotive Parts and Accessories Stores,Unk
-441320,"Automotive Parts, Accessories, and Tire Stores",Tire Dealers,Unk
-442110,Furniture Stores,Furniture Stores,NE
-442210,Home Furnishings Stores,Floor Covering Stores,NE
-442299,Home Furnishings Stores,All Other Home Furnishings Stores,NE
-443141,Electronics and Appliance Stores,Household Appliance Stores,NE
-443142,Electronics and Appliance Stores,Electronics Stores,NE
-444110,Building Material and Supplies Dealers,Home Centers,NE
-444120,Building Material and Supplies Dealers,Paint and Wallpaper Stores,NE
-444130,Building Material and Supplies Dealers,Hardware Stores,NE
-444190,Building Material and Supplies Dealers,Other Building Material Dealers,NE
-445110,Grocery Stores,Supermarkets and Other Grocery (except Convenience) Stores,E
 445120,Grocery Stores,Convenience Stores,E
-445210,Specialty Food Stores,Meat Markets,E
-445220,Specialty Food Stores,Fish and Seafood Markets,E
-445230,Specialty Food Stores,Fruit and Vegetable Markets,E
-445291,Specialty Food Stores,Baked Goods Stores,E
-445292,Specialty Food Stores,Confectionery and Nut Stores,E
-445299,Specialty Food Stores,All Other Specialty Food Stores,E
-445310,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",E
 446110,Health and Personal Care Stores,Pharmacies and Drug Stores,E
-446120,Health and Personal Care Stores,"Cosmetics, Beauty Supplies, and Perfume Stores",NE
-446130,Health and Personal Care Stores,Optical Goods Stores,NE
-446191,Health and Personal Care Stores,Food (Health) Supplement Stores,NE
-446199,Health and Personal Care Stores,All Other Health and Personal Care Stores,NE
-447110,Gasoline Stations,Gasoline Stations with Convenience Stores,NE
-447190,Gasoline Stations,Other Gasoline Stations,NE
-448110,Clothing Stores,Men's Clothing Stores,NE
-448120,Clothing Stores,Women's Clothing Stores,NE
-448130,Clothing Stores,Children's and Infants' Clothing Stores,NE
-448140,Clothing Stores,Family Clothing Stores,NE
-448150,Clothing Stores,Clothing Accessories Stores,NE
-448190,Clothing Stores,Other Clothing Stores,NE
-448210,Shoe Stores,Shoe Stores,NE
-448310,"Jewelry, Luggage, and Leather Goods Stores",Jewelry Stores,NE
-448320,"Jewelry, Luggage, and Leather Goods Stores",Luggage and Leather Goods Stores,NE
-451110,"Sporting Goods, Hobby, and Musical Instrument Stores",Sporting Goods Stores,NE
-451120,"Sporting Goods, Hobby, and Musical Instrument Stores","Hobby, Toy, and Game Stores",NE
-451130,"Sporting Goods, Hobby, and Musical Instrument Stores","Sewing, Needlework, and Piece Goods Stores",NE
-451140,"Sporting Goods, Hobby, and Musical Instrument Stores",Musical Instrument and Supplies Stores,NE
-451211,Book Stores and News Dealers,Book Stores,NE
-452210,Department Stores,Department Stores,NE
-452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,NE
-453110,Florists,Florists,NE
-453210,"Office Supplies, Stationery, and Gift Stores",Office Supplies and Stationery Stores,NE
-453220,"Office Supplies, Stationery, and Gift Stores","Gift, Novelty, and Souvenir Stores",NE
-453310,Used Merchandise Stores,Used Merchandise Stores,NE
-453910,Other Miscellaneous Store Retailers,Pet and Pet Supplies Stores,NE
-453920,Other Miscellaneous Store Retailers,Art Dealers,NE
-453991,Other Miscellaneous Store Retailers,Tobacco Stores,NE
-453998,Other Miscellaneous Store Retailers,All Other Miscellaneous Store Retailers (except Tobacco Stores),NE
-454310,Direct Selling Establishments,Fuel Dealers,Unk
-482111,Rail Transportation,Line-Haul Railroads,Unk
-484210,Specialized Freight Trucking,Used Household and Office Goods Moving,Unk
-484230,Specialized Freight Trucking,"Specialized Freight (except Used Goods) Trucking, Long-Distance",Unk
-485210,Interurban and Rural Bus Transportation,Interurban and Rural Bus Transportation,Unk
-485310,Taxi and Limousine Service,Taxi Service,Unk
-485320,Taxi and Limousine Service,Limousine Service,Unk
-485999,Other Transit and Ground Passenger Transportation,All Other Transit and Ground Passenger Transportation,Unk
-488119,Support Activities for Air Transportation,Other Airport Operations,Unk
-488190,Support Activities for Air Transportation,Other Support Activities for Air Transportation,Unk
-488410,Support Activities for Road Transportation,Motor Vehicle Towing,Unk
-488510,Freight Transportation Arrangement,Freight Transportation Arrangement,Unk
-488991,Other Support Activities for Transportation,Packing and Crating,Unk
+922160,"Justice, Public Order, and Safety Activities",Fire Protection,E
 491110,Postal Service,Postal Service,E
-492110,Couriers and Express Delivery Services,Couriers and Express Delivery Services,E
-493110,Warehousing and Storage,General Warehousing and Storage,Unk
-512131,Motion Picture and Video Industries,Motion Picture Theaters (except Drive-Ins),NE
-515210,Cable and Other Subscription Programming,Cable and Other Subscription Programming,Unk
-517311,Wired and Wireless Telecommunications Carriers,Wired Telecommunications Carriers,E
+445110,Grocery Stores,Supermarkets and Other Grocery (except Convenience) Stores,E
+562119,Waste Collection,Other Waste Collection,E
 517312,Wired and Wireless Telecommunications Carriers,Wireless Telecommunications Carriers (except Satellite),E
-517919,Other Telecommunications,All Other Telecommunications,E
-518210,"Data Processing, Hosting, and Related Services","Data Processing, Hosting, and Related Services",Unk
-519120,Other Information Services,Libraries and Archives,Unk
-522110,Depository Credit Intermediation,Commercial Banking,Unk
-522130,Depository Credit Intermediation,Credit Unions,Unk
-522291,Nondepository Credit Intermediation,Consumer Lending,Unk
-522298,Nondepository Credit Intermediation,All Other Nondepository Credit Intermediation,Unk
-522310,Activities Related to Credit Intermediation,Mortgage and Nonmortgage Loan Brokers,Unk
-522390,Activities Related to Credit Intermediation,Other Activities Related to Credit Intermediation,Unk
-523110,Securities and Commodity Contracts Intermediation and Brokerage,Investment Banking and Securities Dealing,Unk
-523120,Securities and Commodity Contracts Intermediation and Brokerage,Securities Brokerage,Unk
-523930,Other Financial Investment Activities,Investment Advice,Unk
-523999,Other Financial Investment Activities,Miscellaneous Financial Investment Activities,Unk
-524113,Insurance Carriers,Direct Life Insurance Carriers,Unk
-524126,Insurance Carriers,Direct Property and Casualty Insurance Carriers,Unk
-524128,Insurance Carriers,"Other Direct Insurance (except Life, Health, and Medical) Carriers",Unk
-524210,"Agencies, Brokerages, and Other Insurance Related Activities",Insurance Agencies and Brokerages,Unk
-525990,Other Investment Pools and Funds,Other Financial Vehicles,Unk
-531120,Lessors of Real Estate,Malls,NE
-531130,Lessors of Real Estate,Lessors of Miniwarehouses and Self-Storage Units,Unk
-531190,Lessors of Real Estate,Lessors of Other Real Estate Property,Unk
-531210,Offices of Real Estate Agents and Brokers,Offices of Real Estate Agents and Brokers,Unk
-532111,Automotive Equipment Rental and Leasing,Passenger Car Rental,Unk
-532120,Automotive Equipment Rental and Leasing,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing",Unk
-532282,Consumer Goods Rental,Video Tape and Disc Rental,Unk
-532289,Consumer Goods Rental,All Other Consumer Goods Rental,Unk
-532299,,,Unk
-532310,General Rental Centers,General Rental Centers,Unk
-532412,Commercial and Industrial Machinery and Equipment Rental and Leasing,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing",Unk
-532490,Commercial and Industrial Machinery and Equipment Rental and Leasing,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,Unk
-541200,,,Unk
-541213,"Accounting, Tax Preparation, Bookkeeping, and Payroll Services",Tax Preparation Services,Unk
-541310,"Architectural, Engineering, and Related Services",Architectural Services,Unk
-541860,"Advertising, Public Relations, and Related Services",Direct Mail Advertising,Unk
-541921,"Other Professional, Scientific, and Technical Services","Photography Studios, Portrait",NE
-541940,"Other Professional, Scientific, and Technical Services",Veterinary Services,Health
-551112,Management of Companies and Enterprises,Offices of Other Holding Companies,Unk
-561311,Employment Services,Employment Placement Agencies,Unk
-561499,Business Support Services,All Other Business Support Services,Unk
-561510,Travel Arrangement and Reservation Services,Travel Agencies,NE
-561591,Travel Arrangement and Reservation Services,Convention and Visitors Bureaus,NE
-561621,Investigation and Security Services,Security Systems Services (except Locksmiths),E
-561710,Services to Buildings and Dwellings,Exterminating and Pest Control Services,E
-561720,Services to Buildings and Dwellings,Janitorial Services,E
-561730,Services to Buildings and Dwellings,Landscaping Services,E
-561740,Services to Buildings and Dwellings,Carpet and Upholstery Cleaning Services,E
-561790,Services to Buildings and Dwellings,Other Services to Buildings and Dwellings,E
-561920,Other Support Services,Convention and Trade Show Organizers,NE
-561990,Other Support Services,All Other Support Services,Unk
+926120,Administration of Economic Programs,Regulation and Administration of Transportation Programs,E
+445310,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",E
+221111,"Electric Power Generation, Transmission and Distribution",Hydroelectric Power Generation,E
 562211,Waste Treatment and Disposal,Hazardous Waste Treatment and Disposal,E
-562212,Waste Treatment and Disposal,Solid Waste Landfill,E
+812210,Death Care Services,Funeral Homes and Funeral Services,E
+221114,"Electric Power Generation, Transmission and Distribution",Solar Electric Power Generation,E
+812320,Drycleaning and Laundry Services,Drycleaning and Laundry Services (except Coin-Operated),E
+445291,Specialty Food Stores,Baked Goods Stores,E
+445230,Specialty Food Stores,Fruit and Vegetable Markets,E
+492110,Couriers and Express Delivery Services,Couriers and Express Delivery Services,E
+445292,Specialty Food Stores,Confectionery and Nut Stores,E
+562920,Remediation and Other Waste Management Services,Materials Recovery Facilities,E
+922140,"Justice, Public Order, and Safety Activities",Correctional Institutions,E
+561622,Investigation and Security Services,Locksmiths,E
+221112,"Electric Power Generation, Transmission and Distribution",Fossil Fuel Electric Power Generation,E
+922120,"Justice, Public Order, and Safety Activities",Police Protection,E
+445210,Specialty Food Stores,Meat Markets,E
+928120,National Security and International Affairs,International Affairs,E
+561720,Services to Buildings and Dwellings,Janitorial Services,E
+445220,Specialty Food Stores,Fish and Seafood Markets,E
+445299,Specialty Food Stores,All Other Specialty Food Stores,E
+922110,"Justice, Public Order, and Safety Activities",Courts,E
+921110,"Executive, Legislative, and Other General Government Support",Executive Offices,E
+561710,Services to Buildings and Dwellings,Exterminating and Pest Control Services,E
+561621,Investigation and Security Services,Security Systems Services (except Locksmiths),E
+561730,Services to Buildings and Dwellings,Landscaping Services,E
+517919,Other Telecommunications,All Other Telecommunications,E
+561790,Services to Buildings and Dwellings,Other Services to Buildings and Dwellings,E
+621210,Offices of Dentists,Offices of Dentists,Health
+621310,Offices of Other Health Practitioners,Offices of Chiropractors,Health
+6233,Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly,,Health
+621999,Other Ambulatory Health Care Services,All Other Miscellaneous Ambulatory Health Care Services,Health
+621340,Offices of Other Health Practitioners,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",Health
+621111,Offices of Physicians,Offices of Physicians (except Mental Health Specialists),Health
+621410,Outpatient Care Centers,Family Planning Centers,Health
+621330,Offices of Other Health Practitioners,Offices of Mental Health Practitioners (except Physicians),Health
+621498,Outpatient Care Centers,All Other Outpatient Care Centers,Health
+621493,Outpatient Care Centers,Freestanding Ambulatory Surgical and Emergency Centers,Health
+423450,Professional and Commercial Equipment and Supplies Merchant Wholesalers,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",Health
+622110,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,Health
+541940,"Other Professional, Scientific, and Technical Services",Veterinary Services,Health
+621610,Home Health Care Services,Home Health Care Services,Health
+621492,Outpatient Care Centers,Kidney Dialysis Centers,Health
+623312,Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly,Assisted Living Facilities for the Elderly,Health
+621511,Medical and Diagnostic Laboratories,Medical Laboratories,Health
+621399,Offices of Other Health Practitioners,Offices of All Other Miscellaneous Health Practitioners,Health
+623110,Nursing Care Facilities (Skilled Nursing Facilities),Nursing Care Facilities (Skilled Nursing Facilities),Health
+622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,Specialty (except Psychiatric and Substance Abuse) Hospitals,Health
+621512,Medical and Diagnostic Laboratories,Diagnostic Imaging Centers,Health
+621320,Offices of Other Health Practitioners,Offices of Optometrists,Health
+624120,Individual and Family Services,Services for the Elderly and Persons with Disabilities,Health
+621910,Other Ambulatory Health Care Services,Ambulance Services,Health
+621991,Other Ambulatory Health Care Services,Blood and Organ Banks,Health
+622210,Psychiatric and Substance Abuse Hospitals,Psychiatric and Substance Abuse Hospitals,Health
 562910,Remediation and Other Waste Management Services,Remediation Services,E
-611110,Elementary and Secondary Schools,Elementary and Secondary Schools,School
-611210,Junior Colleges,Junior Colleges,School
-611310,"Colleges, Universities, and Professional Schools","Colleges, Universities, and Professional Schools",School
-611511,Technical and Trade Schools,Cosmetology and Barber Schools,School
+562212,Waste Treatment and Disposal,Solid Waste Landfill,E
+237310,"Highway, Street, and Bridge Construction","Highway, Street, and Bridge Construction",Unk
 611512,Technical and Trade Schools,Flight Training,School
-611519,Technical and Trade Schools,Other Technical and Trade Schools,School
-611610,Other Schools and Instruction,Fine Arts Schools,School
+424340,"Apparel, Piece Goods, and Notions Merchant Wholesalers",Footwear Merchant Wholesalers,Unk
+339991,Other Miscellaneous Manufacturing,"Gasket, Packing, and Sealing Device Manufacturing",Unk
+611410,Business Schools and Computer and Management Training,Business and Secretarial Schools,School
+721110,Traveler Accommodation,Hotels (except Casino Hotels) and Motels,NE
+442110,Furniture Stores,Furniture Stores,NE
+812112,Personal Care Services,Beauty Salons,NE
+812113,Personal Care Services,Nail Salons,NE
+446199,Health and Personal Care Stores,All Other Health and Personal Care Stores,NE
+722511,Restaurants and Other Eating Places,Full-Service Restaurants,NE
+722513,Restaurants and Other Eating Places,Limited-Service Restaurants,NE
+443142,Electronics and Appliance Stores,Electronics Stores,NE
+447110,Gasoline Stations,Gasoline Stations with Convenience Stores,NE
+713940,Other Amusement and Recreation Industries,Fitness and Recreational Sports Centers,NE
+531120,Lessors of Real Estate,Malls,NE
+444130,Building Material and Supplies Dealers,Hardware Stores,NE
+811411,Personal and Household Goods Repair and Maintenance,Home and Garden Equipment Repair and Maintenance,NE
+446191,Health and Personal Care Stores,Food (Health) Supplement Stores,NE
+448140,Clothing Stores,Family Clothing Stores,NE
+451110,"Sporting Goods, Hobby, and Musical Instrument Stores",Sporting Goods Stores,NE
+812199,Personal Care Services,Other Personal Care Services,NE
+453991,Other Miscellaneous Store Retailers,Tobacco Stores,NE
+453310,Used Merchandise Stores,Used Merchandise Stores,NE
+721211,RV (Recreational Vehicle) Parks and Recreational Camps,RV (Recreational Vehicle) Parks and Campgrounds,NE
+448310,"Jewelry, Luggage, and Leather Goods Stores",Jewelry Stores,NE
+722515,Restaurants and Other Eating Places,Snack and Nonalcoholic Beverage Bars,NE
+448210,Shoe Stores,Shoe Stores,NE
+442210,Home Furnishings Stores,Floor Covering Stores,NE
+453110,Florists,Florists,NE
+442299,Home Furnishings Stores,All Other Home Furnishings Stores,NE
+722410,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),NE
+512131,Motion Picture and Video Industries,Motion Picture Theaters (except Drive-Ins),NE
+451211,Book Stores and News Dealers,Book Stores,NE
+712190,"Museums, Historical Sites, and Similar Institutions",Nature Parks and Other Similar Institutions,NE
+453998,Other Miscellaneous Store Retailers,All Other Miscellaneous Store Retailers (except Tobacco Stores),NE
+713990,Other Amusement and Recreation Industries,All Other Amusement and Recreation Industries,NE
+452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,NE
+561510,Travel Arrangement and Reservation Services,Travel Agencies,NE
+452210,Department Stores,Department Stores,NE
+453910,Other Miscellaneous Store Retailers,Pet and Pet Supplies Stores,NE
+812111,Personal Care Services,Barber Shops,NE
+453210,"Office Supplies, Stationery, and Gift Stores",Office Supplies and Stationery Stores,NE
+446120,Health and Personal Care Stores,"Cosmetics, Beauty Supplies, and Perfume Stores",NE
+451120,"Sporting Goods, Hobby, and Musical Instrument Stores","Hobby, Toy, and Game Stores",NE
+448120,Clothing Stores,Women's Clothing Stores,NE
+453220,"Office Supplies, Stationery, and Gift Stores","Gift, Novelty, and Souvenir Stores",NE
+446130,Health and Personal Care Stores,Optical Goods Stores,NE
+812191,Personal Care Services,Diet and Weight Reducing Centers,NE
+444220,Lawn and Garden Equipment and Supplies Stores,"Nursery, Garden Center, and Farm Supply Stores",NE
+444120,Building Material and Supplies Dealers,Paint and Wallpaper Stores,NE
+443141,Electronics and Appliance Stores,Household Appliance Stores,NE
+448130,Clothing Stores,Children's and Infants' Clothing Stores,NE
+811420,Personal and Household Goods Repair and Maintenance,Reupholstery and Furniture Repair,NE
+712120,"Museums, Historical Sites, and Similar Institutions",Historical Sites,NE
+541921,"Other Professional, Scientific, and Technical Services","Photography Studios, Portrait",NE
+448190,Clothing Stores,Other Clothing Stores,NE
+448110,Clothing Stores,Men's Clothing Stores,NE
+448320,"Jewelry, Luggage, and Leather Goods Stores",Luggage and Leather Goods Stores,NE
+453920,Other Miscellaneous Store Retailers,Art Dealers,NE
+811412,Personal and Household Goods Repair and Maintenance,Appliance Repair and Maintenance,NE
+713110,Amusement Parks and Arcades,Amusement and Theme Parks,NE
+451130,"Sporting Goods, Hobby, and Musical Instrument Stores","Sewing, Needlework, and Piece Goods Stores",NE
+713910,Other Amusement and Recreation Industries,Golf Courses and Country Clubs,NE
+451140,"Sporting Goods, Hobby, and Musical Instrument Stores",Musical Instrument and Supplies Stores,NE
+448150,Clothing Stores,Clothing Accessories Stores,NE
+713930,Other Amusement and Recreation Industries,Marinas,NE
+811430,Personal and Household Goods Repair and Maintenance,Footwear and Leather Goods Repair,NE
+712110,"Museums, Historical Sites, and Similar Institutions",Museums,NE
+444110,Building Material and Supplies Dealers,Home Centers,NE
+713920,Other Amusement and Recreation Industries,Skiing Facilities,NE
+712130,"Museums, Historical Sites, and Similar Institutions",Zoos and Botanical Gardens,NE
+444190,Building Material and Supplies Dealers,Other Building Material Dealers,NE
+713950,Other Amusement and Recreation Industries,Bowling Centers,NE
+713120,Amusement Parks and Arcades,Amusement Arcades,NE
+722514,Restaurants and Other Eating Places,"Cafeterias, Grill Buffets, and Buffets",NE
+713210,Gambling Industries,Casinos (except Casino Hotels),NE
+721120,Traveler Accommodation,Casino Hotels,NE
+561920,Other Support Services,Convention and Trade Show Organizers,NE
+561591,Travel Arrangement and Reservation Services,Convention and Visitors Bureaus,NE
 611620,Other Schools and Instruction,Sports and Recreation Instruction,School
-611630,Other Schools and Instruction,Language Schools,School
+611110,Elementary and Secondary Schools,Elementary and Secondary Schools,School
+624410,Child Day Care Services,Child Day Care Services,School
+611310,"Colleges, Universities, and Professional Schools","Colleges, Universities, and Professional Schools",School
 611691,Other Schools and Instruction,Exam Preparation and Tutoring,School
 611692,Other Schools and Instruction,Automobile Driving Schools,School
 611699,Other Schools and Instruction,All Other Miscellaneous Schools and Instruction,School
+611630,Other Schools and Instruction,Language Schools,School
+611210,Junior Colleges,Junior Colleges,School
+611511,Technical and Trade Schools,Cosmetology and Barber Schools,School
+611519,Technical and Trade Schools,Other Technical and Trade Schools,School
 611710,Educational Support Services,Educational Support Services,School
-621111,Offices of Physicians,Offices of Physicians (except Mental Health Specialists),Health
-621210,Offices of Dentists,Offices of Dentists,Health
-621310,Offices of Other Health Practitioners,Offices of Chiropractors,Health
-621320,Offices of Other Health Practitioners,Offices of Optometrists,Health
-621330,Offices of Other Health Practitioners,Offices of Mental Health Practitioners (except Physicians),Health
-621340,Offices of Other Health Practitioners,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",Health
-621399,Offices of Other Health Practitioners,Offices of All Other Miscellaneous Health Practitioners,Health
-621410,Outpatient Care Centers,Family Planning Centers,Health
-621492,Outpatient Care Centers,Kidney Dialysis Centers,Health
-621493,Outpatient Care Centers,Freestanding Ambulatory Surgical and Emergency Centers,Health
-621498,Outpatient Care Centers,All Other Outpatient Care Centers,Health
-621511,Medical and Diagnostic Laboratories,Medical Laboratories,Health
-621512,Medical and Diagnostic Laboratories,Diagnostic Imaging Centers,Health
-621610,Home Health Care Services,Home Health Care Services,Health
-621991,Other Ambulatory Health Care Services,Blood and Organ Banks,Health
-621999,Other Ambulatory Health Care Services,All Other Miscellaneous Ambulatory Health Care Services,Health
-622110,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,Health
-622210,Psychiatric and Substance Abuse Hospitals,Psychiatric and Substance Abuse Hospitals,Health
-623110,Nursing Care Facilities (Skilled Nursing Facilities),Nursing Care Facilities (Skilled Nursing Facilities),Health
-623312,Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly,Assisted Living Facilities for the Elderly,Health
-624110,Individual and Family Services,Child and Youth Services,Unk
-624120,Individual and Family Services,Services for the Elderly and Persons with Disabilities,Health
-624190,Individual and Family Services,Other Individual and Family Services,Unk
-624210,"Community Food and Housing, and Emergency and Other Relief Services",Community Food Services,Unk
-624410,Child Day Care Services,Child Day Care Services,School
-711190,Performing Arts Companies,Other Performing Arts Companies,Unk
-711211,Spectator Sports,Sports Teams and Clubs,Unk
-711219,Spectator Sports,Other Spectator Sports,Unk
-711310,"Promoters of Performing Arts, Sports, and Similar Events","Promoters of Performing Arts, Sports, and Similar Events with Facilities",Unk
-712110,"Museums, Historical Sites, and Similar Institutions",Museums,NE
-712120,"Museums, Historical Sites, and Similar Institutions",Historical Sites,NE
-712190,"Museums, Historical Sites, and Similar Institutions",Nature Parks and Other Similar Institutions,NE
-713110,Amusement Parks and Arcades,Amusement and Theme Parks,NE
-713120,Amusement Parks and Arcades,Amusement Arcades,NE
-713210,Gambling Industries,Casinos (except Casino Hotels),NE
-713910,Other Amusement and Recreation Industries,Golf Courses and Country Clubs,NE
-713940,Other Amusement and Recreation Industries,Fitness and Recreational Sports Centers,NE
-713950,Other Amusement and Recreation Industries,Bowling Centers,NE
-713990,Other Amusement and Recreation Industries,All Other Amusement and Recreation Industries,NE
-721110,Traveler Accommodation,Hotels (except Casino Hotels) and Motels,NE
-721211,RV (Recreational Vehicle) Parks and Recreational Camps,RV (Recreational Vehicle) Parks and Campgrounds,NE
-722410,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),NE
-722511,Restaurants and Other Eating Places,Full-Service Restaurants,NE
-722513,Restaurants and Other Eating Places,Limited-Service Restaurants,NE
-722514,Restaurants and Other Eating Places,"Cafeterias, Grill Buffets, and Buffets",NE
-722515,Restaurants and Other Eating Places,Snack and Nonalcoholic Beverage Bars,NE
+611610,Other Schools and Instruction,Fine Arts Schools,School
+441310,"Automotive Parts, Accessories, and Tire Stores",Automotive Parts and Accessories Stores,Unk
 811111,Automotive Repair and Maintenance,General Automotive Repair,Unk
-811113,Automotive Repair and Maintenance,Automotive Transmission Repair,Unk
-811118,Automotive Repair and Maintenance,Other Automotive Mechanical and Electrical Repair and Maintenance,Unk
-811121,Automotive Repair and Maintenance,"Automotive Body, Paint, and Interior Repair and Maintenance",Unk
-811122,Automotive Repair and Maintenance,Automotive Glass Replacement Shops,Unk
-811191,Automotive Repair and Maintenance,Automotive Oil Change and Lubrication Shops,Unk
-811192,Automotive Repair and Maintenance,Car Washes,Unk
-811198,Automotive Repair and Maintenance,All Other Automotive Repair and Maintenance,Unk
-811212,Electronic and Precision Equipment Repair and Maintenance,Computer and Office Machine Repair and Maintenance,Unk
-811219,Electronic and Precision Equipment Repair and Maintenance,Other Electronic and Precision Equipment Repair and Maintenance,Unk
-811411,Personal and Household Goods Repair and Maintenance,Home and Garden Equipment Repair and Maintenance,NE
-811412,Personal and Household Goods Repair and Maintenance,Appliance Repair and Maintenance,NE
-811420,Personal and Household Goods Repair and Maintenance,Reupholstery and Furniture Repair,NE
-811430,Personal and Household Goods Repair and Maintenance,Footwear and Leather Goods Repair,NE
-812111,Personal Care Services,Barber Shops,NE
-812112,Personal Care Services,Beauty Salons,NE
-812113,Personal Care Services,Nail Salons,NE
-812191,Personal Care Services,Diet and Weight Reducing Centers,NE
-812199,Personal Care Services,Other Personal Care Services,NE
-812210,Death Care Services,Funeral Homes and Funeral Services,E
-812320,Drycleaning and Laundry Services,Drycleaning and Laundry Services (except Coin-Operated),E
-812910,Other Personal Services,Pet Care (except Veterinary) Services,Unk
-812930,Other Personal Services,Parking Lots and Garages,Unk
-812990,Other Personal Services,All Other Personal Services,Unk
+423730,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers,Unk
+522291,Nondepository Credit Intermediation,Consumer Lending,Unk
+423910,Miscellaneous Durable Goods Merchant Wholesalers,Sporting and Recreational Goods and Supplies Merchant Wholesalers,Unk
+532310,General Rental Centers,General Rental Centers,Unk
 813110,Religious Organizations,Religious Organizations,Unk
-813212,Grantmaking and Giving Services,Voluntary Health Organizations,Unk
+441110,Automobile Dealers,New Car Dealers,Unk
+524210,"Agencies, Brokerages, and Other Insurance Related Activities",Insurance Agencies and Brokerages,Unk
+522390,Activities Related to Credit Intermediation,Other Activities Related to Credit Intermediation,Unk
+522310,Activities Related to Credit Intermediation,Mortgage and Nonmortgage Loan Brokers,Unk
+531210,Offices of Real Estate Agents and Brokers,Offices of Real Estate Agents and Brokers,Unk
+523110,Securities and Commodity Contracts Intermediation and Brokerage,Investment Banking and Securities Dealing,Unk
+3231,Printing and Related Support Activities,,Unk
+238220,Building Equipment Contractors,"Plumbing, Heating, and Air-Conditioning Contractors",Unk
+5416,"Management, Scientific, and Technical Consulting Services",,Unk
+311811,Bakeries and Tortilla Manufacturing,Retail Bakeries,Unk
+441120,Automobile Dealers,Used Car Dealers,Unk
+531130,Lessors of Real Estate,Lessors of Miniwarehouses and Self-Storage Units,Unk
+522110,Depository Credit Intermediation,Commercial Banking,Unk
+312130,Beverage Manufacturing,Wineries,Unk
+523930,Other Financial Investment Activities,Investment Advice,Unk
+541213,"Accounting, Tax Preparation, Bookkeeping, and Payroll Services",Tax Preparation Services,Unk
+811192,Automotive Repair and Maintenance,Car Washes,Unk
+811211,Electronic and Precision Equipment Repair and Maintenance,Consumer Electronics Repair and Maintenance,Unk
+812910,Other Personal Services,Pet Care (except Veterinary) Services,Unk
+811191,Automotive Repair and Maintenance,Automotive Oil Change and Lubrication Shops,Unk
+454310,Direct Selling Establishments,Fuel Dealers,Unk
+522298,Nondepository Credit Intermediation,All Other Nondepository Credit Intermediation,Unk
+441320,"Automotive Parts, Accessories, and Tire Stores",Tire Dealers,Unk
+811121,Automotive Repair and Maintenance,"Automotive Body, Paint, and Interior Repair and Maintenance",Unk
+532111,Automotive Equipment Rental and Leasing,Passenger Car Rental,Unk
+811122,Automotive Repair and Maintenance,Automotive Glass Replacement Shops,Unk
+523999,Other Financial Investment Activities,Miscellaneous Financial Investment Activities,Unk
+441210,Other Motor Vehicle Dealers,Recreational Vehicle Dealers,Unk
+488410,Support Activities for Road Transportation,Motor Vehicle Towing,Unk
+811490,Personal and Household Goods Repair and Maintenance,Other Personal and Household Goods Repair and Maintenance,Unk
+722320,Special Food Services,Caterers,Unk
+532289,Consumer Goods Rental,All Other Consumer Goods Rental,Unk
+423820,"Machinery, Equipment, and Supplies Merchant Wholesalers",Farm and Garden Machinery and Equipment Merchant Wholesalers,Unk
+441228,Other Motor Vehicle Dealers,"Motorcycle, ATV, and All Other Motor Vehicle Dealers",Unk
+493110,Warehousing and Storage,General Warehousing and Storage,Unk
+335220,Household Appliance Manufacturing,Major Household Appliance Manufacturing,Unk
+484210,Specialized Freight Trucking,Used Household and Office Goods Moving,Unk
+812990,Other Personal Services,All Other Personal Services,Unk
+423390,Lumber and Other Construction Materials Merchant Wholesalers,Other Construction Material Merchant Wholesalers,Unk
+811198,Automotive Repair and Maintenance,All Other Automotive Repair and Maintenance,Unk
+811118,Automotive Repair and Maintenance,Other Automotive Mechanical and Electrical Repair and Maintenance,Unk
+512240,Sound Recording Industries,Sound Recording Studios,Unk
+332812,"Coating, Engraving, Heat Treating, and Allied Activities","Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",Unk
+519120,Other Information Services,Libraries and Archives,Unk
+532282,Consumer Goods Rental,Video Tape and Disc Rental,Unk
+339950,Other Miscellaneous Manufacturing,Sign Manufacturing,Unk
+811113,Automotive Repair and Maintenance,Automotive Transmission Repair,Unk
+532490,Commercial and Industrial Machinery and Equipment Rental and Leasing,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,Unk
+482111,Rail Transportation,Line-Haul Railroads,Unk
+515210,Cable and Other Subscription Programming,Cable and Other Subscription Programming,Unk
+532120,Automotive Equipment Rental and Leasing,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing",Unk
+488119,Support Activities for Air Transportation,Other Airport Operations,Unk
+315990,Apparel Accessories and Other Apparel Manufacturing,Apparel Accessories and Other Apparel Manufacturing,Unk
+238390,Building Finishing Contractors,Other Building Finishing Contractors,Unk
+332510,Hardware Manufacturing,Hardware Manufacturing,Unk
+423810,"Machinery, Equipment, and Supplies Merchant Wholesalers",Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,Unk
+711211,Spectator Sports,Sports Teams and Clubs,Unk
+561311,Employment Services,Employment Placement Agencies,Unk
+711310,"Promoters of Performing Arts, Sports, and Similar Events","Promoters of Performing Arts, Sports, and Similar Events with Facilities",Unk
+423850,"Machinery, Equipment, and Supplies Merchant Wholesalers",Service Establishment Equipment and Supplies Merchant Wholesalers,Unk
+524128,Insurance Carriers,"Other Direct Insurance (except Life, Health, and Medical) Carriers",Unk
+323111,Printing and Related Support Activities,Commercial Printing (except Screen and Books),Unk
+5418,"Advertising, Public Relations, and Related Services",,Unk
+423330,Lumber and Other Construction Materials Merchant Wholesalers,"Roofing, Siding, and Insulation Material Merchant Wholesalers",Unk
+423690,Household Appliances and Electrical and Electronic Goods Merchant Wholesalers,Other Electronic Parts and Equipment Merchant Wholesalers,Unk
+238150,"Foundation, Structure, and Building Exterior Contractors",Glass and Glazing Contractors,Unk
+522130,Depository Credit Intermediation,Credit Unions,Unk
+551112,Management of Companies and Enterprises,Offices of Other Holding Companies,Unk
+531311,Activities Related to Real Estate,Residential Property Managers,Unk
+812930,Other Personal Services,Parking Lots and Garages,Unk
 813219,Grantmaking and Giving Services,Other Grantmaking and Giving Services,Unk
+624190,Individual and Family Services,Other Individual and Family Services,Unk
+441222,Other Motor Vehicle Dealers,Boat Dealers,Unk
+532284,Consumer Goods Rental,Recreational Goods Rental,Unk
+541120,Legal Services,Offices of Notaries,Unk
+238330,Building Finishing Contractors,Flooring Contractors,Unk
+483212,Inland Water Transportation,Inland Water Passenger Transportation,Unk
+488510,Freight Transportation Arrangement,Freight Transportation Arrangement,Unk
+424210,Drugs and Druggists' Sundries Merchant Wholesalers,Drugs and Druggists' Sundries Merchant Wholesalers,Unk
+312120,Beverage Manufacturing,Breweries,Unk
+423830,"Machinery, Equipment, and Supplies Merchant Wholesalers",Industrial Machinery and Equipment Merchant Wholesalers,Unk
+485210,Interurban and Rural Bus Transportation,Interurban and Rural Bus Transportation,Unk
+7111,Performing Arts Companies,,Unk
+115112,Support Activities for Crop Production,"Soil Preparation, Planting, and Cultivating",Unk
+541219,"Accounting, Tax Preparation, Bookkeeping, and Payroll Services",Other Accounting Services,Unk
+485113,Urban Transit Systems,Bus and Other Motor Vehicle Transit Systems,Unk
+423720,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,Unk
+487110,"Scenic and Sightseeing Transportation, Land","Scenic and Sightseeing Transportation, Land",Unk
+488991,Other Support Activities for Transportation,Packing and Crating,Unk
+624110,Individual and Family Services,Child and Youth Services,Unk
+423920,Miscellaneous Durable Goods Merchant Wholesalers,Toy and Hobby Goods and Supplies Merchant Wholesalers,Unk
+531190,Lessors of Real Estate,Lessors of Other Real Estate Property,Unk
+237110,Utility System Construction,Water and Sewer Line and Related Structures Construction,Unk
+518210,"Data Processing, Hosting, and Related Services","Data Processing, Hosting, and Related Services",Unk
+485999,Other Transit and Ground Passenger Transportation,All Other Transit and Ground Passenger Transportation,Unk
+562991,Remediation and Other Waste Management Services,Septic Tank and Related Services,Unk
+111421,"Greenhouse, Nursery, and Floriculture Production",Nursery and Tree Production,Unk
+624210,"Community Food and Housing, and Emergency and Other Relief Services",Community Food Services,Unk
+811219,Electronic and Precision Equipment Repair and Maintenance,Other Electronic and Precision Equipment Repair and Maintenance,Unk
+423610,Household Appliances and Electrical and Electronic Goods Merchant Wholesalers,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",Unk
+423710,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Hardware Merchant Wholesalers,Unk
+323117,Printing and Related Support Activities,Books Printing,Unk
+811212,Electronic and Precision Equipment Repair and Maintenance,Computer and Office Machine Repair and Maintenance,Unk
 813312,Social Advocacy Organizations,"Environment, Conservation and Wildlife Organizations",Unk
-921110,"Executive, Legislative, and Other General Government Support",Executive Offices,E
-921190,"Executive, Legislative, and Other General Government Support",Other General Government Support,E
-922120,"Justice, Public Order, and Safety Activities",Police Protection,E
-922140,"Justice, Public Order, and Safety Activities",Correctional Institutions,E
-922160,"Justice, Public Order, and Safety Activities",Fire Protection,E
-923140,Administration of Human Resource Programs,Administration of Veterans' Affairs,E
-926120,Administration of Economic Programs,Regulation and Administration of Transportation Programs,E
-928120,National Security and International Affairs,International Affairs,E
+423740,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Refrigeration Equipment and Supplies Merchant Wholesalers,Unk
+541310,"Architectural, Engineering, and Related Services",Architectural Services,Unk
+238290,Building Equipment Contractors,Other Building Equipment Contractors,Unk
+424690,Chemical and Allied Products Merchant Wholesalers,Other Chemical and Allied Products Merchant Wholesalers,Unk
+312140,Beverage Manufacturing,Distilleries,Unk
+532412,Commercial and Industrial Machinery and Equipment Rental and Leasing,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing",Unk
+711219,Spectator Sports,Other Spectator Sports,Unk
+423990,Miscellaneous Durable Goods Merchant Wholesalers,Other Miscellaneous Durable Goods Merchant Wholesalers,Unk
+484230,Specialized Freight Trucking,"Specialized Freight (except Used Goods) Trucking, Long-Distance",Unk
+423840,"Machinery, Equipment, and Supplies Merchant Wholesalers",Industrial Supplies Merchant Wholesalers,Unk
+541860,"Advertising, Public Relations, and Related Services",Direct Mail Advertising,Unk
+444210,Lawn and Garden Equipment and Supplies Stores,Outdoor Power Equipment Stores,Unk
+523120,Securities and Commodity Contracts Intermediation and Brokerage,Securities Brokerage,Unk
+336120,Motor Vehicle Manufacturing,Heavy Duty Truck Manufacturing,Unk
+525990,Other Investment Pools and Funds,Other Financial Vehicles,Unk
+423110,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Automobile and Other Motor Vehicle Merchant Wholesalers,Unk
+236118,Residential Building Construction,Residential Remodelers,Unk
+312113,Beverage Manufacturing,Ice Manufacturing,Unk
+331221,Steel Product Manufacturing from Purchased Steel,Rolled Steel Shape Manufacturing,Unk
+561990,Other Support Services,All Other Support Services,Unk
+336411,Aerospace Product and Parts Manufacturing,Aircraft Manufacturing,Unk
+332313,Architectural and Structural Metals Manufacturing,Plate Work Manufacturing,Unk
+327120,Clay Product and Refractory Manufacturing,Clay Building Material and Refractories Manufacturing,Unk
+488190,Support Activities for Air Transportation,Other Support Activities for Air Transportation,Unk
+323113,Printing and Related Support Activities,Commercial Screen Printing,Unk
+524126,Insurance Carriers,Direct Property and Casualty Insurance Carriers,Unk
+424720,Petroleum and Petroleum Products Merchant Wholesalers,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),Unk
+423930,Miscellaneous Durable Goods Merchant Wholesalers,Recyclable Material Merchant Wholesalers,Unk
+238990,Other Specialty Trade Contractors,All Other Specialty Trade Contractors,Unk
+316210,Footwear Manufacturing,Footwear Manufacturing,Unk
+423120,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Motor Vehicle Supplies and New Parts Merchant Wholesalers,Unk
+316998,Other Leather and Allied Product Manufacturing,All Other Leather Good and Allied Product Manufacturing,Unk
+424490,Grocery and Related Product Merchant Wholesalers,Other Grocery and Related Products Merchant Wholesalers,Unk
+311991,Other Food Manufacturing,Perishable Prepared Food Manufacturing,Unk
+812220,Death Care Services,Cemeteries and Crematories,Unk
+561499,Business Support Services,All Other Business Support Services,Unk
+423940,Miscellaneous Durable Goods Merchant Wholesalers,"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers",Unk
+524113,Insurance Carriers,Direct Life Insurance Carriers,Unk
+424910,Miscellaneous Nondurable Goods Merchant Wholesalers,Farm Supplies Merchant Wholesalers,Unk
+327212,Glass and Glass Product Manufacturing,Other Pressed and Blown Glass and Glassware Manufacturing,Unk
+512132,Motion Picture and Video Industries,Drive-In Motion Picture Theaters,Unk
+423130,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Tire and Tube Merchant Wholesalers,Unk
+424320,"Apparel, Piece Goods, and Notions Merchant Wholesalers",Men's and Boys' Clothing and Furnishings Merchant Wholesalers,Unk
+423140,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Motor Vehicle Parts (Used) Merchant Wholesalers,Unk
+813212,Grantmaking and Giving Services,Voluntary Health Organizations,Unk
+711190,Performing Arts Companies,Other Performing Arts Companies,Unk
+238140,"Foundation, Structure, and Building Exterior Contractors",Masonry Contractors,Unk
+532299,,,Unk
+485310,Taxi and Limousine Service,Taxi Service,Unk
+236115,Residential Building Construction,New Single-Family Housing Construction (except For-Sale Builders),Unk
+485320,Taxi and Limousine Service,Limousine Service,Unk
+423310,Lumber and Other Construction Materials Merchant Wholesalers,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers",Unk
+336111,Motor Vehicle Manufacturing,Automobile Manufacturing,Unk
+325510,"Paint, Coating, and Adhesive Manufacturing",Paint and Coating Manufacturing,Unk
+314999,Other Textile Product Mills,All Other Miscellaneous Textile Product Mills,Unk
+541200,,,Unk
+423510,Metal and Mineral (except Petroleum) Merchant Wholesalers,Metal Service Centers and Other Metal Merchant Wholesalers,Unk
+561431,Business Support Services,Private Mail Centers,Unk
+424950,Miscellaneous Nondurable Goods Merchant Wholesalers,"Paint, Varnish, and Supplies Merchant Wholesalers",Unk
+213112,Support Activities for Mining,Support Activities for Oil and Gas Operations,Unk
+332311,Architectural and Structural Metals Manufacturing,Prefabricated Metal Building and Component Manufacturing,Unk
+321992,Other Wood Product Manufacturing,Prefabricated Wood Building Manufacturing,Unk
+333414,"Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing",Heating Equipment (except Warm Air Furnaces) Manufacturing,Unk
+541810,"Advertising, Public Relations, and Related Services",Advertising Agencies,Unk
+532210,Consumer Goods Rental,Consumer Electronics and Appliances Rental,Unk
+423320,Lumber and Other Construction Materials Merchant Wholesalers,"Brick, Stone, and Related Construction Material Merchant Wholesalers",Unk
 NA,,,
