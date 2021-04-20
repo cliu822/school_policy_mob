@@ -3,66 +3,53 @@
 ###############################################################
 #KC 4/21/2021
 
+library(readr)
+library(tidyverse)
+library(tmap)
+library(tidycensus)
+library(sf)
+library(tigris)
+
+safegraph <- readRDS("~/GitHub/school_policy_mob/01_data/mobs_ne_county.RDS")
+AL <- readRDS("~/GitHub/school_policy_mob/safegraph/data_cbg_naic/AL.RDS")
+GA <- readRDS("~/GitHub/school_policy_mob/safegraph/data_cbg_naic/GA.RDS")
+LA <- readRDS("~/GitHub/school_policy_mob/safegraph/data_cbg_naic/LA.RDS")
+MS <- readRDS("~/GitHub/school_policy_mob/safegraph/data_cbg_naic/MS.RDS")
+SC <- readRDS("~/GitHub/school_policy_mob/safegraph/data_cbg_naic/SC.RDS")
 
 
+final <- read_csv("05_final2.csv")
+head(final)
+summary(final$status_county)
 
+summary(safegraph$pre)
+summary(safegraph$post)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Sanjana setup
-directory <- "C:/Users/spampat/Documents/EPI 760 - Causal inference"
-setwd(directory)
-
-POLICY_FIPS <- read_csv("04_final_data_se.txt")
-
-
-#NCES <- read_excel('NCES Data/NCES_AL_GA_LA_MS_SC.xlsx')
-#FIPS <- read_excel("NCES Data/FIPS_Codes.xlsx")
-
-
-#teaching method
-
-POLICY_FIPS$TeachingMethod[POLICY_FIPS$TeachingMethod=="Other" | POLICY_FIPS$TeachingMethod=="Pending" | POLICY_FIPS$TeachingMethod=="Unknown"] <- NA
-POLICY_FIPS$school_inperson <- ifelse(POLICY_FIPS$TeachingMethod=="Hybrid" | POLICY_FIPS$TeachingMethod=="On Premises", 1, 0)
-
-POLICY_FIPS <- filter(POLICY_FIPS, !is.na(school_inperson))
-
-POLICY_FIPS2 <- POLICY_FIPS %>%
+final_cnty <- final %>%
   group_by(FIPS) %>%
-  summarize(total = sum(school_inperson, na.rm=TRUE))
+  slice(1) %>% select(FIPS, status_county)
 
-POLICY_FIPS2$status_county <- ifelse(POLICY_FIPS2$total>=1, 1, 0)
+FIPS1 <- sprintf("%05d", final_cnty$FIPS)
+fips <- cbind(final_cnty,  fips_code = FIPS1)
 
-final <- POLICY_FIPS %>%
-  left_join(POLICY_FIPS2, by = "FIPS")
 
-#group by county and then say if any district status equals open 
-#one
+#Merge opening status with outcome data
+
+sg_cnty <- merge(fips,safegraph,by.y = "FIPS", by.x = "fips_code")
+
+mob_open_pre <- mean(sg_cnty$pre[sg_cnty$status_county == 1])
+mob_closed_pre <- mean(sg_cnty$pre[sg_cnty$status_county == 0])
+mob_open_post <- mean(sg_cnty$post[sg_cnty$status_county == 1])
+mob_closed_post <- mean(sg_cnty$post[sg_cnty$status_county == 0])
+
+
+
 
 #pull in geography
 us <- counties(cb = TRUE, resolution = '5m',
                class = 'sf',
                year = 2018) %>%
   st_transform(5070)
-
-
 
 
 us <- us %>%
@@ -72,9 +59,10 @@ us <- us %>%
 
 names(us)[names(us)=="GEOID"] <- "FIPS"
 us$FIPS <- as.numeric(us$FIPS)
+sg_cnty$FIPS <- as.numeric(sg_cnty$FIPS)
 
-merged2 <- us %>%
-  left_join(final, by = "FIPS")
+sg_cnty_shp <- us %>%
+  left_join(sg_cnty, by = "FIPS")
 
 #state borders
 states <- states(cb = TRUE, resolution = '5m',
@@ -83,26 +71,50 @@ states <- states(cb = TRUE, resolution = '5m',
   st_transform(5070)
 
 states <- states %>%
-  filter((STATEFP %in% c('01','13','22','28','45'))) %>% #We are pulling the Northeast states
+  filter((STATEFP %in% c('01','13','22','28','45'))) %>% #We are pulling the southeast states
   dplyr::select(GEOID, STATEFP, NAME)
 
 plot(st_geometry(states))
 
 
 #map of school reopening status
-t1 <- tm_shape(merged2) + 
-  tm_fill('status_county',
-          style = 'cat',
-          labels =c("Virtual only", "Any in-Person", "Missing"),
-          palette = 'BuPu', 
-          title = 'School Reopening Status')+ 
+t1 <- tm_shape(sg_cnty_shp) + 
+  tm_fill('pre',
+          style = 'fixed',
+          breaks = c(0.02,0.105,0.150, 0.190, 0.240, 0.50, Inf),
+          palette = 'OrRd', 
+          title = 'Per capita visits')+ 
   tm_borders(alpha = 0.2) +
-  tm_layout(main.title = 'School Reopening Status, Deep South, US, Fall 2020',
+  tm_layout(main.title = 'Summer 2020',
             legend.outside = T, bg.color='white', attr.outside='TRUE', main.title.size=1.4)+
   tm_shape(states)+
   tm_borders('Black')
 
 t1
+
+
+t2 <- tm_shape(sg_cnty_shp) + 
+  tm_fill('post',
+          style = 'fixed',
+          breaks = c(0.02,0.105,0.150, 0.190, 0.240, 0.50, Inf),
+          palette = 'OrRd', 
+          title = 'Per capita visits')+ 
+  tm_borders(alpha = 0.2) +
+  tm_layout(main.title = 'Fall 2020',
+            legend.outside = T, bg.color='white', attr.outside='TRUE', main.title.size=1.4)+
+  tm_shape(states)+
+  tm_borders('Black')
+
+t2
+
+prepost <- tmap_arrange(t1, t2, ncol=1)
+
+prepost
+
+
+
+
+
 
 
 table(merged2$school_inperson, useNA = "always")
