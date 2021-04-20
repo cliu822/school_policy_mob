@@ -40,7 +40,11 @@ did <- function(data, outcome, exposure, time, cluster) {
   qbar00 <- mean(predict(qmod, newdata = md_00, type = 'response'))
   
   # estimate did
-  return(qbar11 - qbar10 - qbar01 + qbar00)
+  return(data.frame(time = qbar01 - qbar00, int = qbar10 - qbar00, did = qbar11 - qbar10 - qbar01 + qbar00,
+                    qbar11 = qbar11,
+                    qbar10 = qbar10,
+                    qbar01 = qbar01,
+                    qbar00 = qbar00))
 }
 
 ###############################################################
@@ -97,16 +101,59 @@ debug(did)
 did(data = analysis_dat, exposure = 'exposure', outcome = 'outcome', time = 'time', cluster = 'FIPS')
 
 set.seed(89247)
-did_boot <- c()
+did_boot <- list()
 for (i in 1:1000) {
   boot_dat <- analysis_dat[sample(1:nrow(analysis_dat), size = nrow(analysis_dat), replace = T),]
-  did_boot[i] <- did(data = boot_dat, 
+  did_boot[[i]] <- did(data = boot_dat, 
                      exposure = 'exposure', outcome = 'outcome', time = 'time', 
                      cluster = 'FIPS')
 }
 
-ggplot(as.data.frame(did_boot)) +
-  geom_density(aes(did_boot)) +
-  geom_vline(xintercept = mean(did_boot), col = 'blue')
+did_boot_df <- as.data.frame(do.call(rbind, did_boot))
 
-quantile(did_boot, probs = c(0.025, 0.975))
+sum_stats <- data.frame(
+  mean = apply(did_boot_df, 2, mean),
+  lci = apply(did_boot_df, 2, quantile, probs = 0.025),
+  uci = apply(did_boot_df, 2, quantile, probs = 0.975),
+  est = c('Time', 'Intervention', 'DiD', 'qbar11', 'qbar10', 'qbar01', 'qbar00')
+)
+
+ggplot(did_boot_df) +
+  geom_density(aes(did)) +
+  geom_vline(xintercept = mean(did_boot_df$did), col = 'blue') +
+  geom_vline(xintercept = 0, col = 'black', linetype = 'dashed')
+
+did_plot_df <- data.frame(
+  Group = c("In Person", "In Person", "In Person",
+              "Virtual", "Virtual", "Virtual",
+              "In Person (No Int)", "In Person (No Int)", "In Person (No Int)"),
+  time = c(1, 0.5, 0,
+           1, 0.5, 0,
+           1, 0.5, 0),
+  movement = c(0.18, 0.195, 0.21, 
+               0.16, 0.17, 0.18, 
+               0.18+0.005, 0.195, 0.21)
+)
+
+time_df <- data.frame(time = c(0, 0.5, 1),
+                      time2 = c('Pre', '', 'Post'))
+did_plot_df <- left_join(did_plot_df, time_df)
+did_plot_df_sub1 <- filter(did_plot_df, Group != 'In Person (No Int)')
+did_plot_df_sub2 <- filter(did_plot_df, Group == 'In Person (No Int)') %>%
+  mutate(Group = 'In Person')
+
+ggplot() +
+  geom_line(data = did_plot_df_sub1, 
+            aes(x = time, y = movement, col = Group)) +
+  geom_line(data = did_plot_df_sub2, 
+            aes(x = time, y = movement, col = Group),
+            linetype = 'dashed') +
+  geom_vline(xintercept = 0.5, linetype = 'dashed') +
+  theme_bw() + 
+  xlab('') +
+  ylab('Visits to per Week per Capita by County') +
+  ggtitle('Difference in Difference of Non-Essential Visits & School Operations') +
+  theme(axis.ticks.x = element_blank(),
+        axis.text.x = element_blank())
+
+
