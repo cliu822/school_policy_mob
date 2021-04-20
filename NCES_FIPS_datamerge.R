@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+
+###############################################################
+######Creating School Directory for Public schools#############
+###############################################################
+#KC 4/18/2021
+library(dplyr)
+library(tidyr)
+library(forcats)
+library(readxl)
+library(ggplot2)
+library(here)
+library(stringr)
+
+#Read in excel files with public school districts and public schools from NCES database
+#https://nces.ed.gov/ccd/schoolsearch/school_list.asp?Search=1&State=41
+
+NCES <- read_excel('NCES Data/NCES_AL_GA_LA_MS_SC.xlsx')
+FIPS <- read_excel("NCES Data/FIPS_Codes.xlsx")
+
+FIPS <- FIPS %>% filter( State == "AL" | State == "GA" | State == "LA" | State == "MS" | State == "SC")
+
+NCES_FIPS <- merge(NCES, FIPS, by.x = c("County Name","State"), by.y = c("Name","State"))
+
+
+=======
 
 ###############################################################
 ######Creating School Directory for Public schools#############
@@ -50,3 +76,4 @@ us$FIPS <- as.numeric(us$FIPS)
 
 merged2 <- us %>%
   right_join(merged, by = "FIPS")
+>>>>>>> 4b2c8130ab9285b2afc64b6f92d60115893bf7b6

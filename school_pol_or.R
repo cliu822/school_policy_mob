@@ -122,3 +122,16 @@ df2 <- OR_totalsch %>%  filter(onsite == 1) %>% group_by(District) %>%
 summary(df2$perc_onsite_dist)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
