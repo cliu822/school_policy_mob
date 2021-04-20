@@ -1,3 +1,4 @@
+library(viridis)
 setwd("C:/Users/cliu369/OneDrive - Emory University/Documents/Research/school_policy_mob/safegraph/data_cbg_naic")
 school_stat <- read.csv("../../05_final2.csv")
 naics <- read.csv("../naics_final.csv")
@@ -69,7 +70,8 @@ df3 <- df2 %>% left_join(pop %>% select(-num_less25) %>%
                           mutate(statefips = substr(index,1,2),
                                 countyfips = substr(index,3, 5))
 
-df99 <- df3 %>% filter(statefips %in% c("01","13","22","28","45"))
+df99 <- df3 %>% filter(statefips %in% c("01","13","22","28","45"),
+                       prop25 != "-Inf")
 
 df99 <- df99 %>% mutate(tot_trip25 = tot_trips * prop25)
 
@@ -98,21 +100,76 @@ df99 <- df99 %>% mutate(
 
 df99 <- df99 %>% mutate(
        index_week = ifelse(index_time < -28, NA,
-                      ifelse(index_time < -21 & index_time >= -28, -4,
-                         ifelse(index_time < -14 & index_time >= -21, -3,
-                           ifelse(index_time < -7 & index_time >= -14, -2,
-                              ifelse(index_time < 0 & index_time >= -7, -1,
-                                ifelse(index_time <7 & index_time >= 0, 1,
-                                    ifelse(index_time <14 & index_time >= 7, 2,
-                                      ifelse(index_time <21 & index_time >= 14, 3,
-                                        ifelse(index_time < 28 & index_time >= 21, 4, NA)))))) )))
+                      ifelse(index_time < -21 & index_time >= -28, "bef4",
+                         ifelse(index_time < -14 & index_time >= -21, "bef3",
+                           ifelse(index_time < -7 & index_time >= -14, "bef2",
+                              ifelse(index_time < 0 & index_time >= -7, "bef1",
+                                ifelse(index_time <7 & index_time >= 0, "post1",
+                                    ifelse(index_time <14 & index_time >= 7, "post2",
+                                      ifelse(index_time <21 & index_time >= 14, "post3",
+                                        ifelse(index_time < 28 & index_time >= 21, "post4", NA)))))) )))
 )
 
-head(df)
-      
-df %>% spread(week, visitor_home_cbgs)
 
 
+df_ne_wide <- df99 %>% filter(!is.na(index_week),final_cat ==0)%>%ungroup()%>%
+  select(FIPS,index_week, percap_trip25)
+
+df_ne_wide <- df_ne_wide %>% spread(index_week, percap_trip25)
+df_ne_wide <- df_ne_wide %>% rowwise() %>% 
+              mutate(pre = mean(c(bef1,bef2,bef3,bef4), na.rm=T),
+                     post = mean(c(post1,post2,post3,post4), na.rm=T))
+
+saveRDS(df_ne_wide, "../../01_data/mobs_ne_county.RDS")
+
+### school
+
+df_sch_wide <- df99 %>% filter(!is.na(index_week),final_cat ==2)%>%ungroup()%>%
+  select(FIPS,index_week, percap_trip25) %>%
+  spread(index_week, percap_trip25) %>%
+  rowwise() %>% 
+  mutate(pre = mean(c(bef1,bef2,bef3,bef4), na.rm=T),
+         post = mean(c(post1,post2,post3,post4), na.rm=T))
+
+
+### Plot####
+
+df99 <- df99 %>% left_join(school_stat %>% select(FIPS, status_county) %>% unique(),
+                    by = "FIPS") 
+df99 <- df99 %>% mutate(index_week = factor(index_week, levels=c("bef4","bef3","bef2","bef1",
+                                                                 "post1","post2","post3","post4")))
+png("../plots/percap_visits_nonessential.png", units="in", width=6, height=5, res=500)
+df99 %>% filter(final_cat ==0) %>%group_by(status_county,index_week) %>%
+  filter(!is.na(index_week)) %>%
+  summarize(percap_trip25 = mean(percap_trip25,na.rm = T)) %>%
+  ggplot(aes(x=index_week, y=percap_trip25, group= as.factor(status_county))) +
+  geom_line(aes(color=as.factor(status_county))) +geom_point(aes(color=as.factor(status_county)))+
+  scale_fill_viridis()+
+  theme_classic() + ylim(0,0.5) +ylab("Per capita visits per week")+
+  ggtitle("Per capita visits per week to non-essential places")
+dev.off()
+
+png("../plots/percap_visits_essential.png",  units="in", width=6, height=5, res=500)
+df99 %>% filter(final_cat ==1) %>%group_by(status_county,index_week) %>%
+  filter(!is.na(index_week)) %>%
+  summarize(percap_trip25 = mean(percap_trip25,na.rm = T)) %>%
+  ggplot(aes(x=index_week, y=percap_trip25, group= as.factor(status_county))) +
+  geom_line(aes(color=as.factor(status_county))) +geom_point(aes(color=as.factor(status_county)))+
+  scale_fill_viridis()+
+  theme_classic() + ylim(0, 0.5) + ylab("Per capita visits per week")+
+  ggtitle("Per capita visits per week to essential places")
+dev.off()
+
+png("../plots/percap_visits_school.png",  units="in", width=6, height=5, res=500)
+df99 %>% filter(final_cat ==2) %>%group_by(status_county,index_week) %>%
+  filter(!is.na(index_week)) %>%
+  summarize(percap_trip25 = mean(percap_trip25,na.rm = T)) %>%
+  ggplot(aes(x=index_week, y=percap_trip25, group= as.factor(status_county))) +
+  geom_line(aes(color=as.factor(status_county))) +geom_point(aes(color=as.factor(status_county)))+
+  scale_fill_viridis()+ ylim(0,0.5) +
+  theme_classic() +ylab("Per capita visits per week")+
+  ggtitle("Per capita visits per week to schools")
+dev.off()
 
 library(tidyverse)
 library(tidycensus)
