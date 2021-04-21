@@ -142,7 +142,7 @@ did_plot_df_sub1 <- filter(did_plot_df, Group != 'In Person (No Int)')
 did_plot_df_sub2 <- filter(did_plot_df, Group == 'In Person (No Int)') %>%
   mutate(Group = 'In Person')
 
-ggplot() +
+results_plot <- ggplot() +
   geom_line(data = did_plot_df_sub1, 
             aes(x = time, y = movement, col = Group)) +
   geom_line(data = did_plot_df_sub2, 
@@ -156,4 +156,5 @@ ggplot() +
   theme(axis.ticks.x = element_blank(),
         axis.text.x = element_blank())
 
+ggsave('/Users/adesh/Downloads/did_plot.jpeg')
 
