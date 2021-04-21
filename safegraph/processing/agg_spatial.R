@@ -138,36 +138,42 @@ df99 <- df99 %>% left_join(school_stat %>% select(FIPS, status_county) %>% uniqu
                     by = "FIPS") 
 df99 <- df99 %>% mutate(index_week = factor(index_week, levels=c("bef4","bef3","bef2","bef1",
                                                                  "post1","post2","post3","post4")))
-png("../plots/percap_visits_nonessential.png", units="in", width=6, height=5, res=500)
+png("../plots/percap_visits_nonessential.png", units="in", width=6, height=5, res=600)
 df99 %>% filter(final_cat ==0) %>%group_by(status_county,index_week) %>%
   filter(!is.na(index_week)) %>%
   summarize(percap_trip25 = mean(percap_trip25,na.rm = T)) %>%
-  ggplot(aes(x=index_week, y=percap_trip25, group= as.factor(status_county))) +
-  geom_line(aes(color=as.factor(status_county))) +geom_point(aes(color=as.factor(status_county)))+
-  scale_fill_viridis()+
-  theme_classic() + ylim(0,0.5) +ylab("Per capita visits per week")+
+  ggplot(aes(x=index_week, y=percap_trip25, color= as.factor(status_county))) +
+  geom_line(aes(color=as.factor(status_county),group = status_county), size=1) +
+  geom_point(aes(color=as.factor(status_county), group = status_county), size=2)+
+  scale_color_manual(name = "Policy",values = c("#9ECAE1","#084594"),labels = c("Virtual","Any in-person"))+
+  theme_classic() + ylim(0,0.5) +ylab("Per capita visits per week")+xlab("Week from school start")+
+  scale_x_discrete(labels = c("-4","-3","-2","-1","1","2","3","4"))+
   ggtitle("Per capita visits per week to non-essential places")
 dev.off()
 
-png("../plots/percap_visits_essential.png",  units="in", width=6, height=5, res=500)
+png("../plots/percap_visits_essential.png",  units="in", width=6, height=5, res=600)
 df99 %>% filter(final_cat ==1) %>%group_by(status_county,index_week) %>%
   filter(!is.na(index_week)) %>%
   summarize(percap_trip25 = mean(percap_trip25,na.rm = T)) %>%
-  ggplot(aes(x=index_week, y=percap_trip25, group= as.factor(status_county))) +
-  geom_line(aes(color=as.factor(status_county))) +geom_point(aes(color=as.factor(status_county)))+
-  scale_fill_viridis()+
-  theme_classic() + ylim(0, 0.5) + ylab("Per capita visits per week")+
+  ggplot(aes(x=index_week, y=percap_trip25, color= as.factor(status_county))) +
+  geom_line(aes(color=as.factor(status_county),group = status_county), size=1) +
+  geom_point(aes(color=as.factor(status_county), group = status_county), size=2)+
+  scale_color_manual(name = "Policy",values = c("#9ECAE1","#084594"),labels = c("Virtual","Any in-person"))+
+  theme_classic() + ylim(0,0.5) +ylab("Per capita visits per week")+xlab("Week from school start")+
+  scale_x_discrete(labels = c("-4","-3","-2","-1","1","2","3","4"))+
   ggtitle("Per capita visits per week to essential places")
 dev.off()
 
-png("../plots/percap_visits_school.png",  units="in", width=6, height=5, res=500)
+png("../plots/percap_visits_school.png",  units="in", width=6, height=5, res=600)
 df99 %>% filter(final_cat ==2) %>%group_by(status_county,index_week) %>%
   filter(!is.na(index_week)) %>%
   summarize(percap_trip25 = mean(percap_trip25,na.rm = T)) %>%
-  ggplot(aes(x=index_week, y=percap_trip25, group= as.factor(status_county))) +
-  geom_line(aes(color=as.factor(status_county))) +geom_point(aes(color=as.factor(status_county)))+
-  scale_fill_viridis()+ ylim(0,0.5) +
-  theme_classic() +ylab("Per capita visits per week")+
+  ggplot(aes(x=index_week, y=percap_trip25, color= as.factor(status_county))) +
+  geom_line(aes(color=as.factor(status_county),group = status_county), size=1) +
+  geom_point(aes(color=as.factor(status_county), group = status_county), size=2)+
+  scale_color_manual(name = "Policy",values = c("#9ECAE1","#084594"),labels = c("Virtual","Any in-person"))+
+  theme_classic() + ylim(0,0.5) +ylab("Per capita visits per week")+xlab("Week from school start")+
+  scale_x_discrete(labels = c("-4","-3","-2","-1","1","2","3","4"))+
   ggtitle("Per capita visits per week to schools")
 dev.off()
 
