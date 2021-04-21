@@ -81,11 +81,11 @@ plot(st_geometry(states))
 t1 <- tm_shape(sg_cnty_shp) + 
   tm_fill('pre',
           style = 'fixed',
-          breaks = c(0.02,0.105,0.150, 0.190, 0.240, 0.50, Inf),
+          breaks = c(0.02,0.105,0.150, 0.190, 0.240, Inf),
           palette = 'OrRd', 
           title = 'Per capita visits')+ 
   tm_borders(alpha = 0.2) +
-  tm_layout(main.title = 'Summer 2020',
+  tm_layout(main.title = 'Average mobility four weeks prior to school start',
             legend.outside = T, bg.color='white', attr.outside='TRUE', main.title.size=1.4)+
   tm_shape(states)+
   tm_borders('Black')
@@ -96,11 +96,11 @@ t1
 t2 <- tm_shape(sg_cnty_shp) + 
   tm_fill('post',
           style = 'fixed',
-          breaks = c(0.02,0.105,0.150, 0.190, 0.240, 0.50, Inf),
+          breaks = c(0.02,0.105,0.150, 0.190, 0.240, Inf),
           palette = 'OrRd', 
           title = 'Per capita visits')+ 
   tm_borders(alpha = 0.2) +
-  tm_layout(main.title = 'Fall 2020',
+  tm_layout(main.title = 'Average mobility four weeks after school start',
             legend.outside = T, bg.color='white', attr.outside='TRUE', main.title.size=1.4)+
   tm_shape(states)+
   tm_borders('Black')
@@ -110,6 +110,8 @@ t2
 prepost <- tmap_arrange(t1, t2, ncol=1)
 
 prepost
+
+tmap_save(prepost, "FigureS1.jpg")
 
 
 
