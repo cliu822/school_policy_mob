@@ -4,7 +4,7 @@ library(here)
 data.dir<- here('safegraph')
 filenames <- list.files(pattern="csv")
 
-for (i in 1:4){
+for (i in 21:32){
   df<- fread(filenames[i])
 datepart <- sub(".patterns- *(.+) *.csv.*","\\1", filenames[i])
 date <- sub("_patterns.*","",filenames[i])

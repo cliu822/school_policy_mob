@@ -1,4 +1,7 @@
 ##POI disagg
+##Taking the point of interest data from safegraph from August, rearranging by state and combining the different parts of the week
+## ALso writing out to help categorize NAICs codes.
+
 setwd("C:/Users/cliu369/myLocalDirectory/2020/08")
 filenames <- list.files(pattern="csv")
 
@@ -15,7 +18,7 @@ for (i in 1:length(filenames)){
   
 }
 
-##Reagg poi by state
+##Reagg poi by state from the 4 different parts
 setwd("C:/Users/cliu369/myLocalDirectory/poi")
 filenames <- list.files(pattern="RDS")
 state <- unique(sub("_08.*","",filenames))
@@ -35,6 +38,15 @@ for (i in 1:length(state)){
 }
 
 
+####Combine all the states###
+list <- list()
+for (i in 1:length(filenames)){
+  list[[i]] <- readRDS(filenames[i])
+}
+
+
+poi<- do.call(rbind,list)
+
 naics <- read.csv("naics.csv")
 
 ##Join different states
@@ -49,8 +61,11 @@ saveRDS(poi,"poi_comb.RDS")
 
 ## Recheck naics_codelist
 naics_code <- poi %>% select(naics_code, top_category, sub_category) %>% unique()
-naics_code1 <- naics_code %>% left_join(naics %>% select(naics_code, Cat))
-write.csv(naics_code1, "naics.csv")
+
+setwd("C:/Users/cliu369/OneDrive - Emory University/Documents/Research/school_policy_mob/safegraph/data_cbg_naic")
+naics <- read.csv("../naics_final.csv")
+naics_code1 <- naics_code %>% left_join(naics %>% select(naics_code, naicskey, NAICS_Subgroup, Essential, Cat, final_cat))
+write.csv(naics_code1, "../naics_add.csv")
 
 
 

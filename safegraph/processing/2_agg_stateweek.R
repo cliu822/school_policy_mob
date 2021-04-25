@@ -3,12 +3,12 @@ setwd("C:/Users/cliu369/myLocalDirectory/patterns/splitdat")
 filenames <- list.files(pattern="RDS")
 
 #weeks <- c("2020_07_22","2020_07_29","2020_08_05","2020_08_12","2020_08_19","2020_08_26","2020_09_02")
-weeks <- c("2020_06_24","2020_09_09","2020_09_16","2020_09_23","2020_09_30")
+weeks <- c("2020_11_11", "2020_11_18","2020_11_25")
 state <- unique(sub("_2020.*","",filenames))
 
-state1<- state[29:length(state)]
+#state1<- state[1:28]
 
-state<-state1
+#state<-state1
 
 
 for (i in 1:length(state)){

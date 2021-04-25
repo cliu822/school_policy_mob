@@ -2,20 +2,23 @@ library(SafeGraphR)
 library(data.table)
 library(dplyr)
 
+setwd("C:/Users/cliu369/OneDrive - Emory University/Documents/Research/school_policy_mob/safegraph")
+naics <- read.csv("naics_add.csv")
+
 setwd("C:/Users/cliu369/myLocalDirectory")
 
 ## Read in POI and naics data
-poi <- readRDS("poi/poi_comb.RDS")
-naics <- read.csv("poi/naics.csv")
+#poi <- readRDS("poi/AK.RDS")
+
 
 ## Merge poi data with naics categorizations
-poi <- poi %>% filter(!is.na(naics_code)) %>%  ## removed 3611 or so without naics code
+#poi <- poi %>% filter(!is.na(naics_code)) %>%  ## removed 3611 or so without naics code
   
-  left_join(naics %>% select(naics_code, Cat), by="naics_code", all=F) %>% # categories of business
+#  left_join(naics %>% select(naics_code, Cat), by="naics_code", all=F) %>% # categories of business
   
-  select(safegraph_place_id, top_category,sub_category,naics_code,latitude, longitude,Cat) %>% ## select columns, keep this line
+#  select(safegraph_place_id, top_category,sub_category,naics_code,latitude, longitude,Cat) %>% ## select columns, keep this line
   
-  unique()
+#  unique()
 
 
 
@@ -24,17 +27,26 @@ poi <- poi %>% filter(!is.na(naics_code)) %>%  ## removed 3611 or so without nai
 
 ##
 filenames <- list.files(path = "patterns/splitdat/week", pattern = "RDS")
-state <- c("AL","GA","LA","MS","SC")
+poi_file <- list.files(path="poi", pattern = "RDS")
+state <- substr(poi_file, start = 1, stop =2)
+state <- state[-which(state %in% c("AL","GA","LA","MS","SC"))]
+
+#state <- c("AL","GA","LA","MS","SC")
 weeks <- c("2020_06_24","2020_07_01","2020_07_08","2020_07_15","2020_07_22","2020_07_29",
            "2020_08_05","2020_08_12","2020_08_19","2020_08_26","2020_09_02","2020_09_09",
            "2020_09_16","2020_09_23","2020_09_30")
 
-for (i in 1:length(state)){
+for (i in 1:2){
+#for (i in 1:length(state)){
     files <- filenames[which(grepl(paste(state[i],sep=""),filenames))]
+    poi1 <- poi_file[which(grepl(paste(state[i], sep=""), poi_file))]
+    poi <- readRDS(paste("poi/",poi1, sep=""))
+    
     df99 <- list()
     for (n in 1: length(files)){
       dat <- readRDS(paste("patterns/splitdat/week/",files[n], sep=""))
-      dat <- dat %>% left_join(poi, by="safegraph_place_id")
+      dat <- dat %>% left_join(poi %>% select(safegraph_place_id, naics_code), 
+                               by="safegraph_place_id")
       df99[[n]] <- expand_cat_json(dat, 'visitor_home_cbgs', by="naics_code")
       df99[[n]]$week <- weeks[n]
       
