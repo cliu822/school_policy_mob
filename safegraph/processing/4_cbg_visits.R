@@ -29,15 +29,20 @@ setwd("C:/Users/cliu369/myLocalDirectory")
 filenames <- list.files(path = "patterns/splitdat/week", pattern = "RDS")
 poi_file <- list.files(path="poi", pattern = "RDS")
 state <- substr(poi_file, start = 1, stop =2)
-state <- state[-which(state %in% c("AL","GA","LA","MS","SC"))]
+#state <- state[-which(state %in% c("AS"))]
+state <- state[which(state %in% c("TX","UT","VA","VI","VT","WA","WI","WV","WY"))]
+
+## AS doesnt work well here?
 
 #state <- c("AL","GA","LA","MS","SC")
-weeks <- c("2020_06_24","2020_07_01","2020_07_08","2020_07_15","2020_07_22","2020_07_29",
-           "2020_08_05","2020_08_12","2020_08_19","2020_08_26","2020_09_02","2020_09_09",
-           "2020_09_16","2020_09_23","2020_09_30")
+#weeks <- c("2020_06_24","2020_07_01","2020_07_08","2020_07_15","2020_07_22","2020_07_29",
+#           "2020_08_05","2020_08_12","2020_08_19","2020_08_26","2020_09_02","2020_09_09",
+#           "2020_09_16","2020_09_23","2020_09_30")
 
-for (i in 1:2){
-#for (i in 1:length(state)){
+weeks <- c("2020_10_07","2020_10_14","2020_10_21","2020_10_28","2020_11_04","2020_11_11",
+           "2020_11_18","2020_11_25")
+
+for (i in 1:length(state)){
     files <- filenames[which(grepl(paste(state[i],sep=""),filenames))]
     poi1 <- poi_file[which(grepl(paste(state[i], sep=""), poi_file))]
     poi <- readRDS(paste("poi/",poi1, sep=""))
@@ -53,7 +58,7 @@ for (i in 1:2){
     }
     
     df99 <- do.call(rbind,df99)
-    saveRDS(df99,file =paste("0_res/",state[i],".RDS",sep=""))
+    saveRDS(df99,file =paste("0_res/",state[i],"2.RDS",sep=""))
     
 }
 
