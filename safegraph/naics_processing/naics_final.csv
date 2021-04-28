@@ -1,332 +1,372 @@
 "","naicskey","naics_code","sub_category","NAICS_Subgroup","Essential","Cat","final_cat"
 "1","1114",111421,"Nursery and Tree Production","Greenhouse, Nursery, and Floriculture Production","Yes","Unk",1
 "2","1151",115112,"Soil Preparation, Planting, and Cultivating","Support Activities for Crop Production","Yes","Unk",1
-"3","2131",213112,"Support Activities for Oil and Gas Operations",NA,"Yes","Unk",1
-"4","2211",221111,"Hydroelectric Power Generation","Electric Power Generation, Transmission and Distribution","Yes","E",1
+"3","2111",211120,"Crude Petroleum Extraction ",NA,"Yes","Unk",1
+"4","2131",213112,"Support Activities for Oil and Gas Operations",NA,"Yes","Unk",1
 "5","2211",221114,"Solar Electric Power Generation","Electric Power Generation, Transmission and Distribution","Yes","E",1
-"6","2211",221112,"Fossil Fuel Electric Power Generation","Electric Power Generation, Transmission and Distribution","Yes","E",1
-"7","2361",236115,"New Single-Family Housing Construction (except For-Sale Builders)","Residential Building Construction","No","Unk",0
-"8","2361",236118,"Residential Remodelers","Residential Building Construction","No","Unk",0
-"9","2371",237110,"Water and Sewer Line and Related Structures Construction","Utility System Construction","No","Unk",0
-"10","2373",237310,"Highway, Street, and Bridge Construction","Highway, Street, and Bridge Construction","No","Unk",0
-"11","2381",238150,"Glass and Glazing Contractors","Foundation, Structure, and Building Exterior Contractors","No","Unk",0
-"12","2381",238140,"Masonry Contractors","Foundation, Structure, and Building Exterior Contractors","No","Unk",0
-"13","2382",238220,"Plumbing, Heating, and Air-Conditioning Contractors","Building Equipment Contractors","No","Unk",0
-"14","2382",238290,"Other Building Equipment Contractors","Building Equipment Contractors","No","Unk",0
-"15","2383",238330,"Flooring Contractors","Building Finishing Contractors","No","Unk",0
-"16","2383",238390,"Other Building Finishing Contractors","Building Finishing Contractors","No","Unk",0
-"17","2389",238990,"All Other Specialty Trade Contractors","Other Specialty Trade Contractors","No","Unk",0
-"18","3118",311811,"Retail Bakeries","Bakeries and Tortilla Manufacturing","Yes","Unk",1
-"19","3119",311991,"Perishable Prepared Food Manufacturing","Other Food Manufacturing","Yes","Unk",1
-"20","3121",312113,"Ice Manufacturing","Beverage Manufacturing","Yes","Unk",1
-"21","3121",312120,"Breweries","Beverage Manufacturing","Yes","Unk",1
-"22","3121",312130,"Wineries","Beverage Manufacturing","Yes","Unk",1
-"23","3121",312140,"Distilleries","Beverage Manufacturing","Yes","Unk",1
-"24","3159",315990,"Apparel Accessories and Other Apparel Manufacturing","Apparel Accessories and Other Apparel Manufacturing","No","Unk",0
-"25","3162",316210,"Footwear Manufacturing","Footwear Manufacturing","No","Unk",0
-"26","3169",316998,"All Other Leather Good and Allied Product Manufacturing","Other Leather and Allied Product Manufacturing","No","Unk",0
-"27","3219",321992,"Prefabricated Wood Building Manufacturing","Other Wood Product Manufacturing","Yes","Unk",1
-"28","3231",323113,"Commercial Screen Printing",NA,"Yes","Unk",1
-"29","3231",323111,"Commercial Printing (except Screen and Books)",NA,"Yes","Unk",1
-"30","3231",323117,"Books Printing",NA,"Yes","Unk",1
-"31","3231",3231,"",NA,"Yes","Unk",1
-"32","3255",325510,"Paint and Coating Manufacturing","Paint, Coating, and Adhesive Manufacturing","No","Unk",0
-"33","3271",327120,"Clay Building Material and Refractories Manufacturing","Clay Product and Refractory Manufacturing","No","Unk",0
-"34","3272",327212,"Other Pressed and Blown Glass and Glassware Manufacturing","Glass and Glass Product Manufacturing","Yes","Unk",1
-"35","3312",331221,"Rolled Steel Shape Manufacturing","Steel Product Manufacturing from Purchased Steel","Yes","Unk",1
-"36","3323",332313,"Plate Work Manufacturing","Architectural and Structural Metals Manufacturing","No","Unk",0
-"37","3323",332311,"Prefabricated Metal Building and Component Manufacturing","Architectural and Structural Metals Manufacturing","No","Unk",0
-"38","3325",332510,"Hardware Manufacturing","Hardware Manufacturing","No","Unk",0
-"39","3328",332812,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers","Coating, Engraving, Heat Turning, and Allied Activities","No","Unk",0
-"40","3334",333414,"Heating Equipment (except Warm Air Furnaces) Manufacturing","Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing","Yes","Unk",1
-"41","3352",335220,"Major Household Appliance Manufacturing","Household Appliance Manufacturing","No","Unk",0
-"42","3361",336120,"Heavy Duty Truck Manufacturing","Motor Vehicle Manufacturing","No","Unk",0
-"43","3361",336111,"Automobile Manufacturing","Motor Vehicle Manufacturing","No","Unk",0
-"44","3364",336411,"Aircraft Manufacturing","Aerospace Product and Parts Manufacturing","No","Unk",0
-"45","3399",339991,"Gasket, Packing, and Sealing Device Manufacturing","Other Miscellaneous Manufacturing","No","Unk",0
-"46","3399",339950,"Sign Manufacturing","Other Miscellaneous Manufacturing","No","Unk",0
-"47","4231",423110,"Automobile and Other Motor Vehicle Merchant Wholesalers","Motor Vehicle and Motor Vehicle Parts and Supplies Merchant","Yes","Unk",1
-"48","4231",423130,"Tire and Tube Merchant Wholesalers","Motor Vehicle and Motor Vehicle Parts and Supplies Merchant","Yes","Unk",1
-"49","4231",423120,"Motor Vehicle Supplies and New Parts Merchant Wholesalers","Motor Vehicle and Motor Vehicle Parts and Supplies Merchant","Yes","Unk",1
-"50","4231",423140,"Motor Vehicle Parts (Used) Merchant Wholesalers","Motor Vehicle and Motor Vehicle Parts and Supplies Merchant","Yes","Unk",1
-"51","4233",423320,"Brick, Stone, and Related Construction Material Merchant Wholesalers","Lumber and Other Construction Materials Merchant Wholesalers","Yes","Unk",1
-"52","4233",423310,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers","Lumber and Other Construction Materials Merchant Wholesalers","Yes","Unk",1
-"53","4233",423390,"Other Construction Material Merchant Wholesalers","Lumber and Other Construction Materials Merchant Wholesalers","Yes","Unk",1
-"54","4233",423330,"Roofing, Siding, and Insulation Material Merchant Wholesalers","Lumber and Other Construction Materials Merchant Wholesalers","Yes","Unk",1
-"55","4234",423450,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers","Professional and Commercial Equipment and Supplies Merchant Wholesalers","Yes","Health",1
-"56","4235",423510,"Metal Service Centers and Other Metal Merchant Wholesalers","Metal and Mineral (except Petroleum) Merchant Wholesalers","Yes","Unk",1
-"57","4236",423610,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers","Household Appliances and Electrical and Electronic Goods Merchant Wholesalers","Yes","Unk",1
-"58","4236",423690,"Other Electronic Parts and Equipment Merchant Wholesalers","Household Appliances and Electrical and Electronic Goods Merchant Wholesalers","Yes","Unk",1
-"59","4237",423720,"Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers","Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers","Yes","Unk",1
-"60","4237",423730,"Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers","Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers","Yes","Unk",1
-"61","4237",423710,"Hardware Merchant Wholesalers","Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers","Yes","Unk",1
-"62","4237",423740,"Refrigeration Equipment and Supplies Merchant Wholesalers","Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers","Yes","Unk",1
-"63","4238",423810,"Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers","Machinery, Equipment, and Supplies Merchant Wholesalers","Yes","Unk",1
-"64","4238",423840,"Industrial Supplies Merchant Wholesalers","Machinery, Equipment, and Supplies Merchant Wholesalers","Yes","Unk",1
-"65","4238",423850,"Service Establishment Equipment and Supplies Merchant Wholesalers","Machinery, Equipment, and Supplies Merchant Wholesalers","Yes","Unk",1
-"66","4238",423820,"Farm and Garden Machinery and Equipment Merchant Wholesalers","Machinery, Equipment, and Supplies Merchant Wholesalers","Yes","Unk",1
-"67","4238",423830,"Industrial Machinery and Equipment Merchant Wholesalers","Machinery, Equipment, and Supplies Merchant Wholesalers","Yes","Unk",1
-"68","4239",423940,"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers","Miscellaneous Durable Goods Merchant Wholesalers","Yes","Unk",1
-"69","4239",423990,"Other Miscellaneous Durable Goods Merchant Wholesalers","Miscellaneous Durable Goods Merchant Wholesalers","Yes","Unk",1
-"70","4239",423920,"Toy and Hobby Goods and Supplies Merchant Wholesalers","Miscellaneous Durable Goods Merchant Wholesalers","Yes","Unk",1
-"71","4239",423930,"Recyclable Material Merchant Wholesalers","Miscellaneous Durable Goods Merchant Wholesalers","Yes","Unk",1
-"72","4239",423910,"Sporting and Recreational Goods and Supplies Merchant Wholesalers","Miscellaneous Durable Goods Merchant Wholesalers","Yes","Unk",1
-"73","4242",424210,"Drugs and Druggists' Sundries Merchant Wholesalers","Drugs and Druggists' Sundries Merchant Wholesalers","Yes","Unk",1
-"74","4243",424340,"Footwear Merchant Wholesalers","Apparel, Piece Goods, and Notions Merchant Wholesalers","No","Unk",0
-"75","4243",424320,"Men's and Boys' Clothing and Furnishings Merchant Wholesalers","Apparel, Piece Goods, and Notions Merchant Wholesalers","No","Unk",0
-"76","4244",424490,"Other Grocery and Related Products Merchant Wholesalers","Grocery and Related Product Merchant Wholesalers","Yes","Unk",1
-"77","4246",424690,"Other Chemical and Allied Products Merchant Wholesalers","Chemical and Allied Products Merchant Wholesalers","Yes","Unk",1
-"78","4247",424720,"Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)","Petroleum and Petroleum Products Merchant Wholesalers","Yes","Unk",1
-"79","4249",424910,"Farm Supplies Merchant Wholesalers","Miscellaneous Nondurable Goods Merchant Wholesalers","No","Unk",0
-"80","4249",424950,"Paint, Varnish, and Supplies Merchant Wholesalers","Miscellaneous Nondurable Goods Merchant Wholesalers","No","Unk",0
-"81","4411",441120,"Used Car Dealers","Automobile Dealers","No","Unk",0
-"82","4411",441110,"New Car Dealers","Automobile Dealers","No","Unk",0
-"83","4412",441228,"Motorcycle, ATV, and All Other Motor Vehicle Dealers","Other Motor Vehicle Dealers","No","Unk",0
-"84","4412",441222,"Boat Dealers","Other Motor Vehicle Dealers","No","Unk",0
-"85","4412",441210,"Recreational Vehicle Dealers","Other Motor Vehicle Dealers","No","Unk",0
-"86","4413",441310,"Automotive Parts and Accessories Stores","Automotive Parts, Accessories, and Tire Stores","Yes","Unk",1
-"87","4413",441320,"Tire Dealers","Automotive Parts, Accessories, and Tire Stores","Yes","Unk",1
-"88","4421",442110,"Furniture Stores","Furniture Stores","No","NE",0
-"89","4422",442210,"Floor Covering Stores","Home Furnishings Stores","No","NE",0
-"90","4422",442299,"All Other Home Furnishings Stores","Home Furnishings Stores","No","NE",0
-"91","4431",443142,"Electronics Stores",NA,"No","NE",0
-"92","4431",443141,"Household Appliance Stores",NA,"No","NE",0
-"93","4441",444120,"Paint and Wallpaper Stores","Building Material and Supplies Dealers","Yes","NE",1
-"94","4441",444190,"Other Building Material Dealers","Building Material and Supplies Dealers","Yes","NE",1
-"95","4441",444130,"Hardware Stores","Building Material and Supplies Dealers","Yes","NE",1
-"96","4441",444110,"Home Centers","Building Material and Supplies Dealers","Yes","NE",1
-"97","4442",444210,"Outdoor Power Equipment Stores","Lawn and Garden Equipment and Supplies Stores","No","Unk",0
-"98","4442",444220,"Nursery, Garden Center, and Farm Supply Stores","Lawn and Garden Equipment and Supplies Stores","No","NE",0
-"99","4451",445110,"Supermarkets and Other Grocery (except Convenience) Stores","Grocery Stores","Yes","E",1
-"100","4451",445120,"Convenience Stores","Grocery Stores","Yes","E",1
-"101","4452",445292,"Confectionery and Nut Stores","Specialty Food Stores","Yes","E",1
-"102","4452",445210,"Meat Markets","Specialty Food Stores","Yes","E",1
-"103","4452",445230,"Fruit and Vegetable Markets","Specialty Food Stores","Yes","E",1
-"104","4452",445291,"Baked Goods Stores","Specialty Food Stores","Yes","E",1
-"105","4452",445299,"All Other Specialty Food Stores","Specialty Food Stores","Yes","E",1
-"106","4452",445220,"Fish and Seafood Markets","Specialty Food Stores","Yes","E",1
-"107","4453",445310,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores","Yes","E",1
-"108","4461",446110,"Pharmacies and Drug Stores",NA,"No","E",0
-"109","4461",446199,"All Other Health and Personal Care Stores",NA,"No","NE",0
-"110","4461",446191,"Food (Health) Supplement Stores",NA,"No","NE",0
-"111","4461",446130,"Optical Goods Stores",NA,"No","NE",0
-"112","4461",446120,"Cosmetics, Beauty Supplies, and Perfume Stores",NA,"No","NE",0
-"113","4471",447110,"Gasoline Stations with Convenience Stores",NA,"Yes","NE",1
-"114","4481",448120,"Women's Clothing Stores","Clothing Stores","No","NE",0
-"115","4481",448110,"Men's Clothing Stores","Clothing Stores","No","NE",0
-"116","4481",448130,"Children's and Infants' Clothing Stores","Clothing Stores","No","NE",0
-"117","4481",448150,"Clothing Accessories Stores","Clothing Stores","No","NE",0
-"118","4481",448140,"Family Clothing Stores","Clothing Stores","No","NE",0
-"119","4481",448190,"Other Clothing Stores","Clothing Stores","No","NE",0
-"120","4482",448210,"Shoe Stores","Shoe Stores","No","NE",0
-"121","4483",448320,"Luggage and Leather Goods Stores","Jewelry, Luggage, and Leather Goods Stores","No","NE",0
-"122","4483",448310,"Jewelry Stores","Jewelry, Luggage, and Leather Goods Stores","No","NE",0
-"123","4511",451110,"Sporting Goods Stores","Sporting Goods, Hobby, and Musical Instrument Stores","No","NE",0
-"124","4511",451140,"Musical Instrument and Supplies Stores","Sporting Goods, Hobby, and Musical Instrument Stores","No","NE",0
-"125","4511",451130,"Sewing, Needlework, and Piece Goods Stores","Sporting Goods, Hobby, and Musical Instrument Stores","No","NE",0
-"126","4511",451120,"Hobby, Toy, and Game Stores","Sporting Goods, Hobby, and Musical Instrument Stores","No","NE",0
-"127","4512",451211,"Book Stores","Book Stores and News Dealers","No","NE",0
-"128","4522",452210,"Department Stores","Department Stores","No","NE",0
-"129","4523",452319,"All Other General Merchandise Stores","Other General Merchandise Stores","Yes","NE",1
-"130","4531",453110,"Florists","Florists","No","NE",0
-"131","4532",453210,"Office Supplies and Stationery Stores","Office Supplies, Stationery, and Gift Stores","No","NE",0
-"132","4532",453220,"Gift, Novelty, and Souvenir Stores","Office Supplies, Stationery, and Gift Stores","No","NE",0
-"133","4533",453310,"Used Merchandise Stores","Used Merchandise Stores","No","NE",0
-"134","4539",453920,"Art Dealers","Other Miscellaneous Store Retailers","No","NE",0
-"135","4539",453998,"All Other Miscellaneous Store Retailers (except Tobacco Stores)","Other Miscellaneous Store Retailers","No","NE",0
-"136","4539",453910,"Pet and Pet Supplies Stores","Other Miscellaneous Store Retailers","No","NE",0
-"137","4539",453991,"Tobacco Stores","Other Miscellaneous Store Retailers","No","NE",0
-"138","4543",454310,"Fuel Dealers","Direct Selling Establishments","No","Unk",0
-"139","4821",482111,"Line-Haul Railroads",NA,"Yes","Unk",1
-"140","4832",483212,"Inland Water Passenger Transportation","Inland Water Transportation","Yes","Unk",1
-"141","4842",484210,"Used Household and Office Goods Moving","Specialized Freight Trucking","Yes","Unk",1
-"142","4842",484230,"Specialized Freight (except Used Goods) Trucking, Long-Distance","Specialized Freight Trucking","Yes","Unk",1
-"143","4851",485113,"Bus and Other Motor Vehicle Transit Systems","Urban Transit Systems","Yes","Unk",1
-"144","4852",485210,"Interurban and Rural Bus Transportation","Interurban and Rural Bus Transportation","Yes","Unk",1
-"145","4853",485320,"Limousine Service","Taxi and Limousine Service","Yes","Unk",1
-"146","4853",485310,"Taxi Service","Taxi and Limousine Service","Yes","Unk",1
-"147","4859",485999,"All Other Transit and Ground Passenger Transportation","Other Transit and Ground Passenger Transportation","Yes","Unk",1
-"148","4871",487110,"Scenic and Sightseeing Transportation, Land","Scenic and Sightseeing Transportation, Land","No","Unk",0
-"149","4881",488119,"Other Airport Operations","Support Activities for Air Transportation","Yes","Unk",1
-"150","4881",488190,"Other Support Activities for Air Transportation","Support Activities for Air Transportation","Yes","Unk",1
-"151","4884",488410,"Motor Vehicle Towing","Support Activities for Road Transportation","Yes","Unk",1
-"152","4885",488510,"Freight Transportation Arrangement","Freight Transportation Arrangement","Yes","Unk",1
-"153","4889",488991,"Packing and Crating","Other Support Activities for Transportation","Yes","Unk",1
-"154","4911",491110,"Postal Service",NA,"Yes","E",1
-"155","4931",493110,"General Warehousing and Storage",NA,"Yes","Unk",1
-"156","5121",512131,"Motion Picture Theaters (except Drive-Ins)","Motion Picture and Video Industries","No","NE",0
-"157","5121",512132,"Drive-In Motion Picture Theaters","Motion Picture and Video Industries","No","Unk",0
-"158","5122",512240,"Sound Recording Studios","Sound Recording Industries","No","Unk",0
-"159","5152",515210,"Cable and Other Subscription Programming","Cable and Other Subscription Programming","Yes","Unk",1
-"160","5173",517312,"Wireless Telecommunications Carriers (except Satellite)","Wired and Wireless Telecommunications Carriers","Yes","E",1
-"161","5179",517919,"All Other Telecommunications","Other Telecommunications","Yes","E",1
-"162","5182",518210,"Data Processing, Hosting, and Related Services",NA,"Yes","Unk",1
-"163","5191",519120,"Libraries and Archives",NA,"Yes","Unk",1
-"164","5221",522130,"Credit Unions","Depository Credit Intermediation","Yes","Unk",1
-"165","5221",522110,"Commercial Banking","Depository Credit Intermediation","Yes","Unk",1
-"166","5222",522298,"All Other Nondepository Credit Intermediation","Nondepository Credit Intermediation","Yes","Unk",1
-"167","5222",522291,"Consumer Lending","Nondepository Credit Intermediation","Yes","Unk",1
-"168","5223",522310,"Mortgage and Nonmortgage Loan Brokers","Activities Related to Credit Intermediation","Yes","Unk",1
-"169","5223",522390,"Other Activities Related to Credit Intermediation","Activities Related to Credit Intermediation","Yes","Unk",1
-"170","5231",523120,"Securities Brokerage","Securities and Commodity Contracts Intermediation and Brokerage","No","Unk",0
-"171","5231",523110,"Investment Banking and Securities Dealing","Securities and Commodity Contracts Intermediation and Brokerage","No","Unk",0
-"172","5239",523999,"Miscellaneous Financial Investment Activities","Other Financial Investment Activities","No","Unk",0
-"173","5239",523930,"Investment Advice","Other Financial Investment Activities","No","Unk",0
-"174","5241",524126,"Direct Property and Casualty Insurance Carriers","Insurance Carriers","Yes","Unk",1
-"175","5241",524128,"Other Direct Insurance (except Life, Health, and Medical) Carriers","Insurance Carriers","Yes","Unk",1
-"176","5241",524113,"Direct Life Insurance Carriers","Insurance Carriers","Yes","Unk",1
-"177","5242",524210,"Insurance Agencies and Brokerages","Agencies, Brokerages, and Other Insurance Related Activities","Yes","Unk",1
-"178","5259",525990,"Other Financial Vehicles","Other Investment Pools and Funds","No","Unk",0
-"179","5311",531190,"Lessors of Other Real Estate Property","Lessors of Real Estate","No","Unk",0
-"180","5311",531130,"Lessors of Miniwarehouses and Self-Storage Units","Lessors of Real Estate","No","Unk",0
-"181","5311",531120,"Malls","Lessors of Real Estate","No","NE",0
-"182","5312",531210,"Offices of Real Estate Agents and Brokers","Offices of Real Estate Agents and Brokers","No","Unk",0
-"183","5313",531311,"Residential Property Managers","Activities Related to Real Estate","No","Unk",0
-"184","5321",532111,"Passenger Car Rental","Automotive Equipment Rental and Leasing","Yes","Unk",1
-"185","5321",532120,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing","Automotive Equipment Rental and Leasing","Yes","Unk",1
-"186","5322",532284,"Recreational Goods Rental","Consumer Goods Rental","Yes","Unk",1
-"187","5322",532299,"","Consumer Goods Rental","Yes","Unk",1
-"188","5322",532289,"All Other Consumer Goods Rental","Consumer Goods Rental","Yes","Unk",1
-"189","5322",532282,"Video Tape and Disc Rental","Consumer Goods Rental","Yes","Unk",1
-"190","5322",532210,"Consumer Electronics and Appliances Rental","Consumer Goods Rental","Yes","Unk",1
-"191","5323",532310,"General Rental Centers","General Rental Centers","Yes","Unk",1
-"192","5324",532490,"Other Commercial and Industrial Machinery and Equipment Rental and Leasing","Commercial and Industrial Machinery and Equipment Rental and Leasing","Yes","Unk",1
-"193","5324",532412,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing","Commercial and Industrial Machinery and Equipment Rental and Leasing","Yes","Unk",1
-"194","5411",541120,"Offices of Notaries",NA,"No","Unk",0
-"195","5412",541213,"Tax Preparation Services",NA,"Yes","Unk",1
-"196","5412",541200,"",NA,"Yes","Unk",1
-"197","5412",541219,"Other Accounting Services",NA,"Yes","Unk",1
-"198","5413",541310,"Architectural Services",NA,"No","Unk",0
-"199","5416",5416,"",NA,"No","Unk",0
-"200","5418",541810,"Advertising Agencies",NA,"No","Unk",0
-"201","5418",541860,"Direct Mail Advertising",NA,"No","Unk",0
-"202","5418",5418,"",NA,"No","Unk",0
-"203","5419",541940,"Veterinary Services",NA,"No","Health",0
-"204","5419",541921,"Photography Studios, Portrait",NA,"No","NE",0
-"205","5511",551112,"Offices of Other Holding Companies",NA,"No","Unk",0
-"206","5613",561311,"Employment Placement Agencies","Employment Services","No","Unk",0
-"207","5614",561499,"All Other Business Support Services","Business Support Services","No","Unk",0
-"208","5614",561431,"Private Mail Centers","Business Support Services","No","Unk",0
-"209","5615",561591,"Convention and Visitors Bureaus","Travel Arrangement and Reservation Services","No","NE",0
-"210","5615",561510,"Travel Agencies","Travel Arrangement and Reservation Services","No","NE",0
-"211","5616",561621,"Security Systems Services (except Locksmiths)","Investigation and Security Services","Yes","E",1
-"212","5616",561622,"Locksmiths","Investigation and Security Services","Yes","E",1
-"213","5617",561790,"Other Services to Buildings and Dwellings","Services to Buildings and Dwellings","Yes","E",1
-"214","5617",561710,"Exterminating and Pest Control Services","Services to Buildings and Dwellings","Yes","E",1
-"215","5617",561720,"Janitorial Services","Services to Buildings and Dwellings","Yes","E",1
-"216","5617",561730,"Landscaping Services","Services to Buildings and Dwellings","Yes","E",1
-"217","5619",561990,"All Other Support Services","Other Support Services","No","Unk",0
-"218","5619",561920,"Convention and Trade Show Organizers","Other Support Services","No","NE",0
-"219","5621",562119,"Other Waste Collection","Waste Collection","Yes","E",1
-"220","5622",562211,"Hazardous Waste Treatment and Disposal","Waste Treatment and Disposal","Yes","E",1
-"221","5622",562212,"Solid Waste Landfill","Waste Treatment and Disposal","Yes","E",1
-"222","5629",562920,"Materials Recovery Facilities","Remediation and Other Waste Management Services","Yes","E",1
-"223","5629",562991,"Septic Tank and Related Services","Remediation and Other Waste Management Services","Yes","Unk",1
-"224","5629",562910,"Remediation Services","Remediation and Other Waste Management Services","Yes","E",1
-"225","6111",611110,"Elementary and Secondary Schools",NA,"No","School",2
-"226","6112",611210,"Junior Colleges",NA,"No","School",2
-"227","6113",611310,"Colleges, Universities, and Professional Schools",NA,"No","School",2
-"228","6114",611410,"Business and Secretarial Schools",NA,"No","School",2
-"229","6115",611512,"Flight Training",NA,"No","School",2
-"230","6115",611519,"Other Technical and Trade Schools",NA,"No","School",2
-"231","6115",611511,"Cosmetology and Barber Schools",NA,"No","School",2
-"232","6116",611620,"Sports and Recreation Instruction",NA,"No","School",2
-"233","6116",611699,"All Other Miscellaneous Schools and Instruction",NA,"No","School",2
-"234","6116",611630,"Language Schools",NA,"No","School",2
-"235","6116",611691,"Exam Preparation and Tutoring",NA,"No","School",2
-"236","6116",611610,"Fine Arts Schools",NA,"No","School",2
-"237","6116",611692,"Automobile Driving Schools",NA,"No","School",2
-"238","6117",611710,"Educational Support Services",NA,"No","School",2
-"239","6211",621111,"Offices of Physicians (except Mental Health Specialists)","Offices of Physicians","Yes","Health",1
-"240","6212",621210,"Offices of Dentists","Offices of Dentists","Yes","Health",1
-"241","6213",621340,"Offices of Physical, Occupational and Speech Therapists, and Audiologists","Offices of Other Health Practitioners","Yes","Health",1
-"242","6213",621320,"Offices of Optometrists","Offices of Other Health Practitioners","Yes","Health",1
-"243","6213",621310,"Offices of Chiropractors","Offices of Other Health Practitioners","Yes","Health",1
-"244","6213",621330,"Offices of Mental Health Practitioners (except Physicians)","Offices of Other Health Practitioners","Yes","Health",1
-"245","6213",621399,"Offices of All Other Miscellaneous Health Practitioners","Offices of Other Health Practitioners","Yes","Health",1
-"246","6214",621492,"Kidney Dialysis Centers","Outpatient Care Facilities","Yes","Health",1
-"247","6214",621493,"Freestanding Ambulatory Surgical and Emergency Centers","Outpatient Care Facilities","Yes","Health",1
-"248","6214",621498,"All Other Outpatient Care Centers","Outpatient Care Facilities","Yes","Health",1
-"249","6214",621410,"Family Planning Centers","Outpatient Care Facilities","Yes","Health",1
-"250","6215",621511,"Medical Laboratories","Medical and Diagnostic Laboratories","Yes","Health",1
-"251","6215",621512,"Diagnostic Imaging Centers","Medical and Diagnostic Laboratories","Yes","Health",1
-"252","6216",621610,"Home Health Care Services","Home Health Care Services","Yes","Health",1
-"253","6219",621991,"Blood and Organ Banks","Other Ambulatory Health Care Services","Yes","Health",1
-"254","6219",621999,"All Other Miscellaneous Ambulatory Health Care Services","Other Ambulatory Health Care Services","Yes","Health",1
-"255","6219",621910,"Ambulance Services","Other Ambulatory Health Care Services","Yes","Health",1
-"256","6221",622110,"General Medical and Surgical Hospitals","General Medical and Surgical Hospitals","Yes","Health",1
-"257","6222",622210,"Psychiatric and Substance Abuse Hospitals","Psychiatric and Substance Abuse Hospitals","Yes","Health",1
-"258","6223",622310,"Specialty (except Psychiatric and Substance Abuse) Hospitals","Specialty (except Psychiatric and Substance Abuse) Hospitals","Yes","Health",1
-"259","6231",623110,"Nursing Care Facilities (Skilled Nursing Facilities)","Nursing Care Facilities (Skilled Nursing Facilities)","Yes","Health",1
-"260","6233",623312,"Assisted Living Facilities for the Elderly","Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly","Yes","Health",1
-"261","6233",6233,"","Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly","Yes","Health",1
-"262","6241",624120,"Services for the Elderly and Persons with Disabilities","Individual and Family Services","Yes","Health",1
-"263","6241",624110,"Child and Youth Services","Individual and Family Services","Yes","Unk",1
-"264","6241",624190,"Other Individual and Family Services","Individual and Family Services","Yes","Unk",1
-"265","6242",624210,"Community Food Services","Community Food and Housing, and Emergency and Other Relief Services","Yes","Unk",1
-"266","6244",624410,"Child Day Care Services","Child Day Care Services","No","School",2
-"267","7111",711190,"Other Performing Arts Companies","Performing Arts Companies","No","Unk",0
-"268","7111",7111,"","Performing Arts Companies","No","Unk",0
-"269","7112",711211,"Sports Teams and Clubs","Spectator Sports","No","Unk",0
-"270","7112",711219,"Other Spectator Sports","Spectator Sports","No","Unk",0
-"271","7113",711310,"Promoters of Performing Arts, Sports, and Similar Events with Facilities","Promoters of Performing Arts, Sports, and Similar Events","No","Unk",0
-"272","7121",712130,"Zoos and Botanical Gardens",NA,"No","NE",0
-"273","7121",712110,"Museums",NA,"No","NE",0
-"274","7121",712120,"Historical Sites",NA,"No","NE",0
-"275","7121",712190,"Nature Parks and Other Similar Institutions",NA,"No","NE",0
-"276","7131",713110,"Amusement and Theme Parks","Amusement Parks and Arcades","No","NE",0
-"277","7131",713120,"Amusement Arcades","Amusement Parks and Arcades","No","NE",0
-"278","7132",713210,"Casinos (except Casino Hotels)","Gambling Industries","No","NE",0
-"279","7139",713950,"Bowling Centers","Other Amusement and Recreation Industries","No","NE",0
-"280","7139",713910,"Golf Courses and Country Clubs","Other Amusement and Recreation Industries","No","NE",0
-"281","7139",713940,"Fitness and Recreational Sports Centers","Other Amusement and Recreation Industries","No","NE",0
-"282","7139",713930,"Marinas","Other Amusement and Recreation Industries","No","NE",0
-"283","7139",713990,"All Other Amusement and Recreation Industries","Other Amusement and Recreation Industries","No","NE",0
-"284","7139",713920,"Skiing Facilities","Other Amusement and Recreation Industries","No","NE",0
-"285","7211",721120,"Casino Hotels","Traveler Accommodation","Yes","NE",1
-"286","7211",721110,"Hotels (except Casino Hotels) and Motels","Traveler Accommodation","Yes","NE",1
-"287","7212",721211,"RV (Recreational Vehicle) Parks and Campgrounds","RV (Recreational Vehicle) Parks and Recreational Camps","Yes","NE",1
-"288","7223",722320,"Caterers","Special Food Services","No","Unk",0
-"289","7224",722410,"Drinking Places (Alcoholic Beverages)","Drinking Places (Alcoholic Beverages)","No","NE",0
-"290","7225",722515,"Snack and Nonalcoholic Beverage Bars","Restaurants and Other Eating Places","Yes","NE",1
-"291","7225",722511,"Full-Service Restaurants","Restaurants and Other Eating Places","Yes","NE",1
-"292","7225",722513,"Limited-Service Restaurants","Restaurants and Other Eating Places","Yes","NE",1
-"293","7225",722514,"Cafeterias, Grill Buffets, and Buffets","Restaurants and Other Eating Places","Yes","NE",1
-"294","8111",811111,"General Automotive Repair","Automotive Repair and Maintenance","Yes","Unk",1
-"295","8111",811118,"Other Automotive Mechanical and Electrical Repair and Maintenance","Automotive Repair and Maintenance","Yes","Unk",1
-"296","8111",811113,"Automotive Transmission Repair","Automotive Repair and Maintenance","Yes","Unk",1
-"297","8111",811198,"All Other Automotive Repair and Maintenance","Automotive Repair and Maintenance","Yes","Unk",1
-"298","8111",811122,"Automotive Glass Replacement Shops","Automotive Repair and Maintenance","Yes","Unk",1
-"299","8111",811121,"Automotive Body, Paint, and Interior Repair and Maintenance","Automotive Repair and Maintenance","Yes","Unk",1
-"300","8111",811191,"Automotive Oil Change and Lubrication Shops","Automotive Repair and Maintenance","Yes","Unk",1
-"301","8111",811192,"Car Washes","Automotive Repair and Maintenance","Yes","Unk",1
-"302","8112",811211,"Consumer Electronics Repair and Maintenance","Electronic and Precision Equipment Repair and Maintenance","Yes","Unk",1
-"303","8112",811219,"Other Electronic and Precision Equipment Repair and Maintenance","Electronic and Precision Equipment Repair and Maintenance","Yes","Unk",1
-"304","8112",811212,"Computer and Office Machine Repair and Maintenance","Electronic and Precision Equipment Repair and Maintenance","Yes","Unk",1
-"305","8114",811430,"Footwear and Leather Goods Repair","Personal and Household Goods Repair and Maintenance","Yes","NE",1
-"306","8114",811420,"Reupholstery and Furniture Repair","Personal and Household Goods Repair and Maintenance","Yes","NE",1
-"307","8114",811412,"Appliance Repair and Maintenance","Personal and Household Goods Repair and Maintenance","Yes","NE",1
-"308","8114",811411,"Home and Garden Equipment Repair and Maintenance","Personal and Household Goods Repair and Maintenance","Yes","NE",1
-"309","8114",811490,"Other Personal and Household Goods Repair and Maintenance","Personal and Household Goods Repair and Maintenance","Yes","Unk",1
-"310","8121",812199,"Other Personal Care Services","Personal Care Services","No","NE",0
-"311","8121",812113,"Nail Salons","Personal Care Services","No","NE",0
-"312","8121",812112,"Beauty Salons","Personal Care Services","No","NE",0
-"313","8121",812191,"Diet and Weight Reducing Centers","Personal Care Services","No","NE",0
-"314","8121",812111,"Barber Shops","Personal Care Services","No","NE",0
-"315","8122",812210,"Funeral Homes and Funeral Services","Death Care Services","Yes","E",1
-"316","8122",812220,"Cemeteries and Crematories","Death Care Services","Yes","Unk",1
-"317","8123",812320,"Drycleaning and Laundry Services (except Coin-Operated)","Drycleaning and Laundry Services","Yes","E",1
-"318","8129",812910,"Pet Care (except Veterinary) Services","Other Personal Services","No","Unk",0
-"319","8129",812990,"All Other Personal Services","Other Personal Services","No","Unk",0
-"320","8129",812930,"Parking Lots and Garages","Other Personal Services","No","Unk",0
-"321","8131",813110,"Religious Organizations","Religious Organizations","Yes","Unk",1
-"322","8132",813219,"Other Grantmaking and Giving Services","Grantmaking and Giving Services","Yes","Unk",1
-"323","8132",813212,"Voluntary Health Organizations","Grantmaking and Giving Services","Yes","Unk",1
-"324","8133",813312,"Environment, Conservation and Wildlife Organizations","Social Advocacy Organizations","Yes","Unk",1
-"325","9211",921110,"Executive Offices",NA,"Yes","E",1
-"326","9221",922160,"Fire Protection",NA,"Yes","E",1
-"327","9221",922140,"Correctional Institutions",NA,"Yes","E",1
-"328","9221",922110,"Courts",NA,"Yes","E",1
-"329","9221",922120,"Police Protection",NA,"Yes","E",1
-"330","9261",926120,"Regulation and Administration of Transportation Programs",NA,"Yes","E",1
-"331","9281",928120,"International Affairs",NA,"Yes","E",1
+"6","2211",221111,"Hydroelectric Power Generation","Electric Power Generation, Transmission and Distribution","Yes","E",1
+"7","2211",221112,"Fossil Fuel Electric Power Generation","Electric Power Generation, Transmission and Distribution","Yes","E",1
+"8","2211",221115,"Wind Electric Power Generation","Electric Power Generation, Transmission and Distribution","Yes","Unk",1
+"9","2212",221210,"Natural Gas Distribution","Natural Gas Distribution","Yes","Unk",1
+"10","2361",236115,"New Single-Family Housing Construction (except For-Sale Builders)","Residential Building Construction","No","Unk",0
+"11","2361",236118,"Residential Remodelers","Residential Building Construction","No","Unk",0
+"12","2371",237110,"Water and Sewer Line and Related Structures Construction","Utility System Construction","No","Unk",0
+"13","2373",237310,"Highway, Street, and Bridge Construction","Highway, Street, and Bridge Construction","No","Unk",0
+"14","2381",238160,"Roofing Contractors","Foundation, Structure, and Building Exterior Contractors","No","Unk",0
+"15","2381",238150,"Glass and Glazing Contractors","Foundation, Structure, and Building Exterior Contractors","No","Unk",0
+"16","2381",238140,"Masonry Contractors","Foundation, Structure, and Building Exterior Contractors","No","Unk",0
+"17","2382",238290,"Other Building Equipment Contractors","Building Equipment Contractors","No","Unk",0
+"18","2382",238220,"Plumbing, Heating, and Air-Conditioning Contractors","Building Equipment Contractors","No","Unk",0
+"19","2383",238310,"Drywall and Insulation Contractors","Building Finishing Contractors","No","Unk",0
+"20","2383",238390,"Other Building Finishing Contractors","Building Finishing Contractors","No","Unk",0
+"21","2383",238330,"Flooring Contractors","Building Finishing Contractors","No","Unk",0
+"22","2389",238990,"All Other Specialty Trade Contractors","Other Specialty Trade Contractors","No","Unk",0
+"23","3118",311811,"Retail Bakeries","Bakeries and Tortilla Manufacturing","Yes","Unk",1
+"24","3119",311991,"Perishable Prepared Food Manufacturing","Other Food Manufacturing","Yes","Unk",1
+"25","3121",312120,"Breweries","Beverage Manufacturing","Yes","Unk",1
+"26","3121",312140,"Distilleries","Beverage Manufacturing","Yes","Unk",1
+"27","3121",312130,"Wineries","Beverage Manufacturing","Yes","Unk",1
+"28","3121",312113,"Ice Manufacturing","Beverage Manufacturing","Yes","Unk",1
+"29","3159",315990,"Apparel Accessories and Other Apparel Manufacturing","Apparel Accessories and Other Apparel Manufacturing","No","Unk",0
+"30","3162",316210,"Footwear Manufacturing","Footwear Manufacturing","No","Unk",0
+"31","3169",316998,"All Other Leather Good and Allied Product Manufacturing","Other Leather and Allied Product Manufacturing","No","Unk",0
+"32","3219",321992,"Prefabricated Wood Building Manufacturing","Other Wood Product Manufacturing","Yes","Unk",1
+"33","3222",322230,"Stationery Product Manufacturing","Converted Paper Product Manufacturing","Yes","Unk",1
+"34","3231",3231,"",NA,"Yes","Unk",1
+"35","3231",323113,"Commercial Screen Printing",NA,"Yes","Unk",1
+"36","3231",323117,"Books Printing",NA,"Yes","Unk",1
+"37","3231",323111,"Commercial Printing (except Screen and Books)",NA,"Yes","Unk",1
+"38","3255",325510,"Paint and Coating Manufacturing","Paint, Coating, and Adhesive Manufacturing","No","Unk",0
+"39","3256",325620,"Toilet Preparation Manufacturing","Soap, Cleaning Compound, and Toilet Preparation Manufacturing","Yes","Unk",1
+"40","3271",327120,"Clay Building Material and Refractories Manufacturing","Clay Product and Refractory Manufacturing","No","Unk",0
+"41","3272",327212,"Other Pressed and Blown Glass and Glassware Manufacturing","Glass and Glass Product Manufacturing","Yes","Unk",1
+"42","3312",331221,"Rolled Steel Shape Manufacturing","Steel Product Manufacturing from Purchased Steel","Yes","Unk",1
+"43","3323",332313,"Plate Work Manufacturing","Architectural and Structural Metals Manufacturing","No","Unk",0
+"44","3323",332311,"Prefabricated Metal Building and Component Manufacturing","Architectural and Structural Metals Manufacturing","No","Unk",0
+"45","3325",332510,"Hardware Manufacturing","Hardware Manufacturing","No","Unk",0
+"46","3328",332812,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers","Coating, Engraving, Heat Turning, and Allied Activities","No","Unk",0
+"47","3334",333414,"Heating Equipment (except Warm Air Furnaces) Manufacturing","Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing","Yes","Unk",1
+"48","3345",334510,"Electromedical and Electrotherapeutic Apparatus Manufacturing","Navigational, Measuring, Electromedical, and Control Instruments Manufacturing","Yes","Unk",1
+"49","3345",334519,"Other Measuring and Controlling Device Manufacturing","Navigational, Measuring, Electromedical, and Control Instruments Manufacturing","Yes","Unk",1
+"50","3352",335220,"Major Household Appliance Manufacturing","Household Appliance Manufacturing","No","Unk",0
+"51","3361",336120,"Heavy Duty Truck Manufacturing","Motor Vehicle Manufacturing","No","Unk",0
+"52","3361",336111,"Automobile Manufacturing","Motor Vehicle Manufacturing","No","Unk",0
+"53","3364",336411,"Aircraft Manufacturing","Aerospace Product and Parts Manufacturing","No","Unk",0
+"54","3399",339991,"Gasket, Packing, and Sealing Device Manufacturing","Other Miscellaneous Manufacturing","No","Unk",0
+"55","3399",339950,"Sign Manufacturing","Other Miscellaneous Manufacturing","No","Unk",0
+"56","3399",339920,"Sporting and Athletic Goods Manufacturing","Other Miscellaneous Manufacturing","No","Unk",0
+"57","4231",423140,"Motor Vehicle Parts (Used) Merchant Wholesalers","Motor Vehicle and Motor Vehicle Parts and Supplies Merchant","Yes","Unk",1
+"58","4231",423120,"Motor Vehicle Supplies and New Parts Merchant Wholesalers","Motor Vehicle and Motor Vehicle Parts and Supplies Merchant","Yes","Unk",1
+"59","4231",423130,"Tire and Tube Merchant Wholesalers","Motor Vehicle and Motor Vehicle Parts and Supplies Merchant","Yes","Unk",1
+"60","4231",423110,"Automobile and Other Motor Vehicle Merchant Wholesalers","Motor Vehicle and Motor Vehicle Parts and Supplies Merchant","Yes","Unk",1
+"61","4233",423310,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers","Lumber and Other Construction Materials Merchant Wholesalers","Yes","Unk",1
+"62","4233",423390,"Other Construction Material Merchant Wholesalers","Lumber and Other Construction Materials Merchant Wholesalers","Yes","Unk",1
+"63","4233",423330,"Roofing, Siding, and Insulation Material Merchant Wholesalers","Lumber and Other Construction Materials Merchant Wholesalers","Yes","Unk",1
+"64","4233",423320,"Brick, Stone, and Related Construction Material Merchant Wholesalers","Lumber and Other Construction Materials Merchant Wholesalers","Yes","Unk",1
+"65","4234",423450,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers","Professional and Commercial Equipment and Supplies Merchant Wholesalers","Yes","Health",1
+"66","4235",423510,"Metal Service Centers and Other Metal Merchant Wholesalers","Metal and Mineral (except Petroleum) Merchant Wholesalers","Yes","Unk",1
+"67","4236",423610,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers","Household Appliances and Electrical and Electronic Goods Merchant Wholesalers","Yes","Unk",1
+"68","4236",423690,"Other Electronic Parts and Equipment Merchant Wholesalers","Household Appliances and Electrical and Electronic Goods Merchant Wholesalers","Yes","Unk",1
+"69","4237",423730,"Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers","Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers","Yes","Unk",1
+"70","4237",423740,"Refrigeration Equipment and Supplies Merchant Wholesalers","Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers","Yes","Unk",1
+"71","4237",423710,"Hardware Merchant Wholesalers","Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers","Yes","Unk",1
+"72","4237",423720,"Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers","Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers","Yes","Unk",1
+"73","4238",423820,"Farm and Garden Machinery and Equipment Merchant Wholesalers","Machinery, Equipment, and Supplies Merchant Wholesalers","Yes","Unk",1
+"74","4238",423840,"Industrial Supplies Merchant Wholesalers","Machinery, Equipment, and Supplies Merchant Wholesalers","Yes","Unk",1
+"75","4238",423850,"Service Establishment Equipment and Supplies Merchant Wholesalers","Machinery, Equipment, and Supplies Merchant Wholesalers","Yes","Unk",1
+"76","4238",423810,"Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers","Machinery, Equipment, and Supplies Merchant Wholesalers","Yes","Unk",1
+"77","4238",423830,"Industrial Machinery and Equipment Merchant Wholesalers","Machinery, Equipment, and Supplies Merchant Wholesalers","Yes","Unk",1
+"78","4239",423930,"Recyclable Material Merchant Wholesalers","Miscellaneous Durable Goods Merchant Wholesalers","Yes","Unk",1
+"79","4239",423910,"Sporting and Recreational Goods and Supplies Merchant Wholesalers","Miscellaneous Durable Goods Merchant Wholesalers","Yes","Unk",1
+"80","4239",423940,"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers","Miscellaneous Durable Goods Merchant Wholesalers","Yes","Unk",1
+"81","4239",423990,"Other Miscellaneous Durable Goods Merchant Wholesalers","Miscellaneous Durable Goods Merchant Wholesalers","Yes","Unk",1
+"82","4239",423920,"Toy and Hobby Goods and Supplies Merchant Wholesalers","Miscellaneous Durable Goods Merchant Wholesalers","Yes","Unk",1
+"83","4242",424210,"Drugs and Druggists' Sundries Merchant Wholesalers","Drugs and Druggists' Sundries Merchant Wholesalers","Yes","Unk",1
+"84","4243",424340,"Footwear Merchant Wholesalers","Apparel, Piece Goods, and Notions Merchant Wholesalers","No","Unk",0
+"85","4243",424320,"Men's and Boys' Clothing and Furnishings Merchant Wholesalers","Apparel, Piece Goods, and Notions Merchant Wholesalers","No","Unk",0
+"86","4244",424490,"Other Grocery and Related Products Merchant Wholesalers","Grocery and Related Product Merchant Wholesalers","Yes","Unk",1
+"87","4244",424410,"General Line Grocery Merchant Wholesalers","Grocery and Related Product Merchant Wholesalers","Yes","Unk",1
+"88","4244",424430,"Dairy Product (except Dried or Canned) Merchant Wholesalers","Grocery and Related Product Merchant Wholesalers","Yes","Unk",1
+"89","4245",424510,"Grain and Field Bean Merchant Wholesalers","Farm Product Raw Material Merchant Wholesalers","Yes","Unk",1
+"90","4246",424690,"Other Chemical and Allied Products Merchant Wholesalers","Chemical and Allied Products Merchant Wholesalers","Yes","Unk",1
+"91","4247",424720,"Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)","Petroleum and Petroleum Products Merchant Wholesalers","Yes","Unk",1
+"92","4247",424710,"Petroleum Bulk Stations and Terminals","Petroleum and Petroleum Products Merchant Wholesalers","Yes","Unk",1
+"93","4249",424910,"Farm Supplies Merchant Wholesalers","Miscellaneous Nondurable Goods Merchant Wholesalers","No","Unk",0
+"94","4249",424950,"Paint, Varnish, and Supplies Merchant Wholesalers","Miscellaneous Nondurable Goods Merchant Wholesalers","No","Unk",0
+"95","4411",441110,"New Car Dealers","Automobile Dealers","No","Unk",0
+"96","4411",441120,"Used Car Dealers","Automobile Dealers","No","Unk",0
+"97","4412",441210,"Recreational Vehicle Dealers","Other Motor Vehicle Dealers","No","Unk",0
+"98","4412",441228,"Motorcycle, ATV, and All Other Motor Vehicle Dealers","Other Motor Vehicle Dealers","No","Unk",0
+"99","4412",441222,"Boat Dealers","Other Motor Vehicle Dealers","No","Unk",0
+"100","4413",441310,"Automotive Parts and Accessories Stores","Automotive Parts, Accessories, and Tire Stores","Yes","Unk",1
+"101","4413",441320,"Tire Dealers","Automotive Parts, Accessories, and Tire Stores","Yes","Unk",1
+"102","4421",442110,"Furniture Stores","Furniture Stores","No","NE",0
+"103","4422",442299,"All Other Home Furnishings Stores","Home Furnishings Stores","No","NE",0
+"104","4422",442210,"Floor Covering Stores","Home Furnishings Stores","No","NE",0
+"105","4431",443142,"Electronics Stores",NA,"No","NE",0
+"106","4431",443141,"Household Appliance Stores",NA,"No","NE",0
+"107","4441",444190,"Other Building Material Dealers","Building Material and Supplies Dealers","Yes","NE",1
+"108","4441",444130,"Hardware Stores","Building Material and Supplies Dealers","Yes","NE",1
+"109","4441",444110,"Home Centers","Building Material and Supplies Dealers","Yes","NE",1
+"110","4441",444120,"Paint and Wallpaper Stores","Building Material and Supplies Dealers","Yes","NE",1
+"111","4442",444220,"Nursery, Garden Center, and Farm Supply Stores","Lawn and Garden Equipment and Supplies Stores","No","NE",0
+"112","4442",444210,"Outdoor Power Equipment Stores","Lawn and Garden Equipment and Supplies Stores","No","Unk",0
+"113","4451",445120,"Convenience Stores","Grocery Stores","Yes","E",1
+"114","4451",445110,"Supermarkets and Other Grocery (except Convenience) Stores","Grocery Stores","Yes","E",1
+"115","4452",445230,"Fruit and Vegetable Markets","Specialty Food Stores","Yes","E",1
+"116","4452",445292,"Confectionery and Nut Stores","Specialty Food Stores","Yes","E",1
+"117","4452",445220,"Fish and Seafood Markets","Specialty Food Stores","Yes","E",1
+"118","4452",445299,"All Other Specialty Food Stores","Specialty Food Stores","Yes","E",1
+"119","4452",445291,"Baked Goods Stores","Specialty Food Stores","Yes","E",1
+"120","4452",445210,"Meat Markets","Specialty Food Stores","Yes","E",1
+"121","4453",445310,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores","Yes","E",1
+"122","4461",446199,"All Other Health and Personal Care Stores",NA,"No","NE",0
+"123","4461",446120,"Cosmetics, Beauty Supplies, and Perfume Stores",NA,"No","NE",0
+"124","4461",446110,"Pharmacies and Drug Stores",NA,"No","E",0
+"125","4461",446130,"Optical Goods Stores",NA,"No","NE",0
+"126","4461",446191,"Food (Health) Supplement Stores",NA,"No","NE",0
+"127","4471",447110,"Gasoline Stations with Convenience Stores",NA,"Yes","NE",1
+"128","4481",448140,"Family Clothing Stores","Clothing Stores","No","NE",0
+"129","4481",448110,"Men's Clothing Stores","Clothing Stores","No","NE",0
+"130","4481",448120,"Women's Clothing Stores","Clothing Stores","No","NE",0
+"131","4481",448190,"Other Clothing Stores","Clothing Stores","No","NE",0
+"132","4481",448130,"Children's and Infants' Clothing Stores","Clothing Stores","No","NE",0
+"133","4481",448150,"Clothing Accessories Stores","Clothing Stores","No","NE",0
+"134","4482",448210,"Shoe Stores","Shoe Stores","No","NE",0
+"135","4483",448310,"Jewelry Stores","Jewelry, Luggage, and Leather Goods Stores","No","NE",0
+"136","4483",448320,"Luggage and Leather Goods Stores","Jewelry, Luggage, and Leather Goods Stores","No","NE",0
+"137","4511",451130,"Sewing, Needlework, and Piece Goods Stores","Sporting Goods, Hobby, and Musical Instrument Stores","No","NE",0
+"138","4511",451110,"Sporting Goods Stores","Sporting Goods, Hobby, and Musical Instrument Stores","No","NE",0
+"139","4511",451120,"Hobby, Toy, and Game Stores","Sporting Goods, Hobby, and Musical Instrument Stores","No","NE",0
+"140","4511",451140,"Musical Instrument and Supplies Stores","Sporting Goods, Hobby, and Musical Instrument Stores","No","NE",0
+"141","4512",451211,"Book Stores","Book Stores and News Dealers","No","NE",0
+"142","4522",452210,"Department Stores","Department Stores","No","NE",0
+"143","4523",452319,"All Other General Merchandise Stores","Other General Merchandise Stores","Yes","NE",1
+"144","4531",453110,"Florists","Florists","No","NE",0
+"145","4532",453210,"Office Supplies and Stationery Stores","Office Supplies, Stationery, and Gift Stores","No","NE",0
+"146","4532",453220,"Gift, Novelty, and Souvenir Stores","Office Supplies, Stationery, and Gift Stores","No","NE",0
+"147","4533",453310,"Used Merchandise Stores","Used Merchandise Stores","No","NE",0
+"148","4539",453910,"Pet and Pet Supplies Stores","Other Miscellaneous Store Retailers","No","NE",0
+"149","4539",453998,"All Other Miscellaneous Store Retailers (except Tobacco Stores)","Other Miscellaneous Store Retailers","No","NE",0
+"150","4539",453920,"Art Dealers","Other Miscellaneous Store Retailers","No","NE",0
+"151","4539",453991,"Tobacco Stores","Other Miscellaneous Store Retailers","No","NE",0
+"152","4543",454310,"Fuel Dealers","Direct Selling Establishments","No","Unk",0
+"153","4821",482111,"Line-Haul Railroads",NA,"Yes","Unk",1
+"154","4832",483212,"Inland Water Passenger Transportation","Inland Water Transportation","Yes","Unk",1
+"155","4842",484210,"Used Household and Office Goods Moving","Specialized Freight Trucking","Yes","Unk",1
+"156","4842",484230,"Specialized Freight (except Used Goods) Trucking, Long-Distance","Specialized Freight Trucking","Yes","Unk",1
+"157","4851",485113,"Bus and Other Motor Vehicle Transit Systems","Urban Transit Systems","Yes","Unk",1
+"158","4852",485210,"Interurban and Rural Bus Transportation","Interurban and Rural Bus Transportation","Yes","Unk",1
+"159","4853",485320,"Limousine Service","Taxi and Limousine Service","Yes","Unk",1
+"160","4853",485310,"Taxi Service","Taxi and Limousine Service","Yes","Unk",1
+"161","4859",485999,"All Other Transit and Ground Passenger Transportation","Other Transit and Ground Passenger Transportation","Yes","Unk",1
+"162","4871",487110,"Scenic and Sightseeing Transportation, Land","Scenic and Sightseeing Transportation, Land","No","Unk",0
+"163","4881",488190,"Other Support Activities for Air Transportation","Support Activities for Air Transportation","Yes","Unk",1
+"164","4881",488119,"Other Airport Operations","Support Activities for Air Transportation","Yes","Unk",1
+"165","4883",488310,"Port and Harbor Operations","Support Activities for Water Transportation","Yes","Unk",1
+"166","4884",488410,"Motor Vehicle Towing","Support Activities for Road Transportation","Yes","Unk",1
+"167","4885",488510,"Freight Transportation Arrangement","Freight Transportation Arrangement","Yes","Unk",1
+"168","4889",488991,"Packing and Crating","Other Support Activities for Transportation","Yes","Unk",1
+"169","4911",491110,"Postal Service",NA,"Yes","E",1
+"170","4931",493130,"Farm Product Warehousing and Storage",NA,"Yes","Unk",1
+"171","4931",493110,"General Warehousing and Storage",NA,"Yes","Unk",1
+"172","5111",511130,"Book Publishers","Newspaper, Periodical, Book, and Directory Publishers","Yes","Unk",1
+"173","5121",512131,"Motion Picture Theaters (except Drive-Ins)","Motion Picture and Video Industries","No","NE",0
+"174","5121",512132,"Drive-In Motion Picture Theaters","Motion Picture and Video Industries","No","Unk",0
+"175","5122",512240,"Sound Recording Studios","Sound Recording Industries","No","Unk",0
+"176","5152",515210,"Cable and Other Subscription Programming","Cable and Other Subscription Programming","Yes","Unk",1
+"177","5173",517312,"Wireless Telecommunications Carriers (except Satellite)","Wired and Wireless Telecommunications Carriers","Yes","E",1
+"178","5179",517919,"All Other Telecommunications","Other Telecommunications","Yes","E",1
+"179","5179",517911,"Telecommunications Resellers","Other Telecommunications","Yes","Unk",1
+"180","5182",518210,"Data Processing, Hosting, and Related Services",NA,"Yes","Unk",1
+"181","5191",519120,"Libraries and Archives",NA,"Yes","Unk",1
+"182","5221",522120,"Savings Institutions","Depository Credit Intermediation","Yes","Unk",1
+"183","5221",522130,"Credit Unions","Depository Credit Intermediation","Yes","Unk",1
+"184","5221",522110,"Commercial Banking","Depository Credit Intermediation","Yes","Unk",1
+"185","5222",522298,"All Other Nondepository Credit Intermediation","Nondepository Credit Intermediation","Yes","Unk",1
+"186","5222",522291,"Consumer Lending","Nondepository Credit Intermediation","Yes","Unk",1
+"187","5223",522310,"Mortgage and Nonmortgage Loan Brokers","Activities Related to Credit Intermediation","Yes","Unk",1
+"188","5223",522320,"Financial Transactions Processing, Reserve, and Clearinghouse Activities","Activities Related to Credit Intermediation","Yes","Unk",1
+"189","5223",522390,"Other Activities Related to Credit Intermediation","Activities Related to Credit Intermediation","Yes","Unk",1
+"190","5231",523120,"Securities Brokerage","Securities and Commodity Contracts Intermediation and Brokerage","No","Unk",0
+"191","5231",523110,"Investment Banking and Securities Dealing","Securities and Commodity Contracts Intermediation and Brokerage","No","Unk",0
+"192","5239",523930,"Investment Advice","Other Financial Investment Activities","No","Unk",0
+"193","5239",523999,"Miscellaneous Financial Investment Activities","Other Financial Investment Activities","No","Unk",0
+"194","5239",523920,"Portfolio Management","Other Financial Investment Activities","No","Unk",0
+"195","5241",524113,"Direct Life Insurance Carriers","Insurance Carriers","Yes","Unk",1
+"196","5241",524128,"Other Direct Insurance (except Life, Health, and Medical) Carriers","Insurance Carriers","Yes","Unk",1
+"197","5241",524127,"Direct Title Insurance Carriers","Insurance Carriers","Yes","Unk",1
+"198","5241",524126,"Direct Property and Casualty Insurance Carriers","Insurance Carriers","Yes","Unk",1
+"199","5242",524210,"Insurance Agencies and Brokerages","Agencies, Brokerages, and Other Insurance Related Activities","Yes","Unk",1
+"200","5259",525990,"Other Financial Vehicles","Other Investment Pools and Funds","No","Unk",0
+"201","5311",531190,"Lessors of Other Real Estate Property","Lessors of Real Estate","No","Unk",0
+"202","5311",531110,"Lessors of Residential Buildings and Dwellings","Lessors of Real Estate","No","Unk",0
+"203","5311",531130,"Lessors of Miniwarehouses and Self-Storage Units","Lessors of Real Estate","No","Unk",0
+"204","5311",531120,"Malls","Lessors of Real Estate","No","NE",0
+"205","5312",531210,"Offices of Real Estate Agents and Brokers","Offices of Real Estate Agents and Brokers","No","Unk",0
+"206","5313",531311,"Residential Property Managers","Activities Related to Real Estate","No","Unk",0
+"207","5321",532120,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing","Automotive Equipment Rental and Leasing","Yes","Unk",1
+"208","5321",532111,"Passenger Car Rental","Automotive Equipment Rental and Leasing","Yes","Unk",1
+"209","5322",532289,"All Other Consumer Goods Rental","Consumer Goods Rental","Yes","Unk",1
+"210","5322",532299,"","Consumer Goods Rental","Yes","Unk",1
+"211","5322",532210,"Consumer Electronics and Appliances Rental","Consumer Goods Rental","Yes","Unk",1
+"212","5322",532282,"Video Tape and Disc Rental","Consumer Goods Rental","Yes","Unk",1
+"213","5322",532284,"Recreational Goods Rental","Consumer Goods Rental","Yes","Unk",1
+"214","5323",532310,"General Rental Centers","General Rental Centers","Yes","Unk",1
+"215","5324",532490,"Other Commercial and Industrial Machinery and Equipment Rental and Leasing","Commercial and Industrial Machinery and Equipment Rental and Leasing","Yes","Unk",1
+"216","5324",532412,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing","Commercial and Industrial Machinery and Equipment Rental and Leasing","Yes","Unk",1
+"217","5411",541120,"Offices of Notaries",NA,"No","Unk",0
+"218","5411",541199,"All Other Legal Services",NA,"No","Unk",0
+"219","5412",541200,"",NA,"Yes","Unk",1
+"220","5412",541219,"Other Accounting Services",NA,"Yes","Unk",1
+"221","5412",541213,"Tax Preparation Services",NA,"Yes","Unk",1
+"222","5413",541310,"Architectural Services",NA,"No","Unk",0
+"223","5416",5416,"",NA,"No","Unk",0
+"224","5417",541715,"Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",NA,"Yes","Unk",1
+"225","5417",541712,"",NA,"Yes","Unk",1
+"226","5418",541810,"Advertising Agencies",NA,"No","Unk",0
+"227","5418",541860,"Direct Mail Advertising",NA,"No","Unk",0
+"228","5418",5418,"",NA,"No","Unk",0
+"229","5419",541940,"Veterinary Services",NA,"No","Health",0
+"230","5419",541921,"Photography Studios, Portrait",NA,"No","NE",0
+"231","5511",551112,"Offices of Other Holding Companies",NA,"No","Unk",0
+"232","5511",551111,"Offices of Bank Holding Companies",NA,"No","Unk",0
+"233","5613",561311,"Employment Placement Agencies","Employment Services","No","Unk",0
+"234","5614",561499,"All Other Business Support Services","Business Support Services","No","Unk",0
+"235","5614",561431,"Private Mail Centers","Business Support Services","No","Unk",0
+"236","5615",561510,"Travel Agencies","Travel Arrangement and Reservation Services","No","NE",0
+"237","5615",561591,"Convention and Visitors Bureaus","Travel Arrangement and Reservation Services","No","NE",0
+"238","5615",561520,"Tour Operators","Travel Arrangement and Reservation Services","No","Unk",0
+"239","5616",561622,"Locksmiths","Investigation and Security Services","Yes","E",1
+"240","5616",561621,"Security Systems Services (except Locksmiths)","Investigation and Security Services","Yes","E",1
+"241","5617",561730,"Landscaping Services","Services to Buildings and Dwellings","Yes","E",1
+"242","5617",561720,"Janitorial Services","Services to Buildings and Dwellings","Yes","E",1
+"243","5617",561790,"Other Services to Buildings and Dwellings","Services to Buildings and Dwellings","Yes","E",1
+"244","5617",561710,"Exterminating and Pest Control Services","Services to Buildings and Dwellings","Yes","E",1
+"245","5619",561990,"All Other Support Services","Other Support Services","No","Unk",0
+"246","5619",561920,"Convention and Trade Show Organizers","Other Support Services","No","NE",0
+"247","5621",562119,"Other Waste Collection","Waste Collection","Yes","E",1
+"248","5622",562211,"Hazardous Waste Treatment and Disposal","Waste Treatment and Disposal","Yes","E",1
+"249","5622",562212,"Solid Waste Landfill","Waste Treatment and Disposal","Yes","E",1
+"250","5629",562920,"Materials Recovery Facilities","Remediation and Other Waste Management Services","Yes","E",1
+"251","5629",562991,"Septic Tank and Related Services","Remediation and Other Waste Management Services","Yes","Unk",1
+"252","5629",562910,"Remediation Services","Remediation and Other Waste Management Services","Yes","E",1
+"253","6111",611110,"Elementary and Secondary Schools",NA,"No","School",2
+"254","6112",611210,"Junior Colleges",NA,"No","School",2
+"255","6113",611310,"Colleges, Universities, and Professional Schools",NA,"No","School",2
+"256","6114",611410,"Business and Secretarial Schools",NA,"No","School",2
+"257","6114",611430,"Professional and Management Development Training",NA,"No","School",2
+"258","6114",611420,"Computer Training",NA,"No","School",2
+"259","6115",611519,"Other Technical and Trade Schools",NA,"No","School",2
+"260","6115",611512,"Flight Training",NA,"No","School",2
+"261","6115",611511,"Cosmetology and Barber Schools",NA,"No","School",2
+"262","6116",611620,"Sports and Recreation Instruction",NA,"No","School",2
+"263","6116",611610,"Fine Arts Schools",NA,"No","School",2
+"264","6116",611699,"All Other Miscellaneous Schools and Instruction",NA,"No","School",2
+"265","6116",611692,"Automobile Driving Schools",NA,"No","School",2
+"266","6116",611691,"Exam Preparation and Tutoring",NA,"No","School",2
+"267","6116",611630,"Language Schools",NA,"No","School",2
+"268","6117",611710,"Educational Support Services",NA,"No","School",2
+"269","6211",621112,"Offices of Physicians, Mental Health Specialists","Offices of Physicians","Yes","Health",1
+"270","6211",621111,"Offices of Physicians (except Mental Health Specialists)","Offices of Physicians","Yes","Health",1
+"271","6212",621210,"Offices of Dentists","Offices of Dentists","Yes","Health",1
+"272","6213",621320,"Offices of Optometrists","Offices of Other Health Practitioners","Yes","Health",1
+"273","6213",621340,"Offices of Physical, Occupational and Speech Therapists, and Audiologists","Offices of Other Health Practitioners","Yes","Health",1
+"274","6213",621310,"Offices of Chiropractors","Offices of Other Health Practitioners","Yes","Health",1
+"275","6213",621399,"Offices of All Other Miscellaneous Health Practitioners","Offices of Other Health Practitioners","Yes","Health",1
+"276","6213",621330,"Offices of Mental Health Practitioners (except Physicians)","Offices of Other Health Practitioners","Yes","Health",1
+"277","6214",621493,"Freestanding Ambulatory Surgical and Emergency Centers","Outpatient Care Facilities","Yes","Health",1
+"278","6214",621492,"Kidney Dialysis Centers","Outpatient Care Facilities","Yes","Health",1
+"279","6214",621498,"All Other Outpatient Care Centers","Outpatient Care Facilities","Yes","Health",1
+"280","6214",621410,"Family Planning Centers","Outpatient Care Facilities","Yes","Health",1
+"281","6215",621511,"Medical Laboratories","Medical and Diagnostic Laboratories","Yes","Health",1
+"282","6215",621512,"Diagnostic Imaging Centers","Medical and Diagnostic Laboratories","Yes","Health",1
+"283","6216",621610,"Home Health Care Services","Home Health Care Services","Yes","Health",1
+"284","6219",621991,"Blood and Organ Banks","Other Ambulatory Health Care Services","Yes","Health",1
+"285","6219",621999,"All Other Miscellaneous Ambulatory Health Care Services","Other Ambulatory Health Care Services","Yes","Health",1
+"286","6219",621910,"Ambulance Services","Other Ambulatory Health Care Services","Yes","Health",1
+"287","6221",622110,"General Medical and Surgical Hospitals","General Medical and Surgical Hospitals","Yes","Health",1
+"288","6222",622210,"Psychiatric and Substance Abuse Hospitals","Psychiatric and Substance Abuse Hospitals","Yes","Health",1
+"289","6223",622310,"Specialty (except Psychiatric and Substance Abuse) Hospitals","Specialty (except Psychiatric and Substance Abuse) Hospitals","Yes","Health",1
+"290","6231",623110,"Nursing Care Facilities (Skilled Nursing Facilities)","Nursing Care Facilities (Skilled Nursing Facilities)","Yes","Health",1
+"291","6233",6233,"","Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly","Yes","Health",1
+"292","6233",623312,"Assisted Living Facilities for the Elderly","Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly","Yes","Health",1
+"293","6241",624110,"Child and Youth Services","Individual and Family Services","Yes","Health",1
+"294","6241",624120,"Services for the Elderly and Persons with Disabilities","Individual and Family Services","Yes","Health",1
+"295","6241",624190,"Other Individual and Family Services","Individual and Family Services","Yes","Health",1
+"296","6242",624210,"Community Food Services","Community Food and Housing, and Emergency and Other Relief Services","Yes","Health",1
+"297","6244",624410,"Child Day Care Services","Child Day Care Services","No","School",2
+"298","7111",7111,"","Performing Arts Companies","No","Unk",0
+"299","7111",711110,"Theater Companies and Dinner Theaters","Performing Arts Companies","No","Unk",0
+"300","7111",711190,"Other Performing Arts Companies","Performing Arts Companies","No","Unk",0
+"301","7111",711130,"Musical Groups and Artists","Performing Arts Companies","No","Unk",0
+"302","7112",711211,"Sports Teams and Clubs","Spectator Sports","No","Unk",0
+"303","7112",711219,"Other Spectator Sports","Spectator Sports","No","Unk",0
+"304","7112",711212,"Racetracks","Spectator Sports","No","Unk",0
+"305","7113",711310,"Promoters of Performing Arts, Sports, and Similar Events with Facilities","Promoters of Performing Arts, Sports, and Similar Events","No","Unk",0
+"306","7115",711510,"Independent Artists, Writers, and Performers","Independent Artists, Writers, and Performers","No","Unk",0
+"307","7121",712120,"Historical Sites",NA,"No","NE",0
+"308","7121",712130,"Zoos and Botanical Gardens",NA,"No","NE",0
+"309","7121",712110,"Museums",NA,"No","NE",0
+"310","7121",712190,"Nature Parks and Other Similar Institutions",NA,"No","NE",0
+"311","7131",713110,"Amusement and Theme Parks","Amusement Parks and Arcades","No","NE",0
+"312","7131",713120,"Amusement Arcades","Amusement Parks and Arcades","No","NE",0
+"313","7132",713290,"Other Gambling Industries","Gambling Industries","No","Unk",0
+"314","7132",713210,"Casinos (except Casino Hotels)","Gambling Industries","No","NE",0
+"315","7139",713910,"Golf Courses and Country Clubs","Other Amusement and Recreation Industries","No","NE",0
+"316","7139",713930,"Marinas","Other Amusement and Recreation Industries","No","NE",0
+"317","7139",713920,"Skiing Facilities","Other Amusement and Recreation Industries","No","NE",0
+"318","7139",713950,"Bowling Centers","Other Amusement and Recreation Industries","No","NE",0
+"319","7139",713940,"Fitness and Recreational Sports Centers","Other Amusement and Recreation Industries","No","NE",0
+"320","7139",713990,"All Other Amusement and Recreation Industries","Other Amusement and Recreation Industries","No","NE",0
+"321","7211",721110,"Hotels (except Casino Hotels) and Motels","Traveler Accommodation","Yes","NE",1
+"322","7211",721120,"Casino Hotels","Traveler Accommodation","Yes","NE",1
+"323","7212",721211,"RV (Recreational Vehicle) Parks and Campgrounds","RV (Recreational Vehicle) Parks and Recreational Camps","Yes","NE",1
+"324","7223",722320,"Caterers","Special Food Services","No","Unk",0
+"325","7224",722410,"Drinking Places (Alcoholic Beverages)","Drinking Places (Alcoholic Beverages)","No","NE",0
+"326","7225",722514,"Cafeterias, Grill Buffets, and Buffets","Restaurants and Other Eating Places","Yes","NE",1
+"327","7225",722511,"Full-Service Restaurants","Restaurants and Other Eating Places","Yes","NE",1
+"328","7225",722515,"Snack and Nonalcoholic Beverage Bars","Restaurants and Other Eating Places","Yes","NE",1
+"329","7225",722513,"Limited-Service Restaurants","Restaurants and Other Eating Places","Yes","NE",1
+"330","8111",811113,"Automotive Transmission Repair","Automotive Repair and Maintenance","Yes","Unk",1
+"331","8111",811118,"Other Automotive Mechanical and Electrical Repair and Maintenance","Automotive Repair and Maintenance","Yes","Unk",1
+"332","8111",811111,"General Automotive Repair","Automotive Repair and Maintenance","Yes","Unk",1
+"333","8111",811191,"Automotive Oil Change and Lubrication Shops","Automotive Repair and Maintenance","Yes","Unk",1
+"334","8111",811192,"Car Washes","Automotive Repair and Maintenance","Yes","Unk",1
+"335","8111",811121,"Automotive Body, Paint, and Interior Repair and Maintenance","Automotive Repair and Maintenance","Yes","Unk",1
+"336","8111",811122,"Automotive Glass Replacement Shops","Automotive Repair and Maintenance","Yes","Unk",1
+"337","8111",811198,"All Other Automotive Repair and Maintenance","Automotive Repair and Maintenance","Yes","Unk",1
+"338","8112",811212,"Computer and Office Machine Repair and Maintenance","Electronic and Precision Equipment Repair and Maintenance","Yes","Unk",1
+"339","8112",811219,"Other Electronic and Precision Equipment Repair and Maintenance","Electronic and Precision Equipment Repair and Maintenance","Yes","Unk",1
+"340","8112",811211,"Consumer Electronics Repair and Maintenance","Electronic and Precision Equipment Repair and Maintenance","Yes","Unk",1
+"341","8114",811411,"Home and Garden Equipment Repair and Maintenance","Personal and Household Goods Repair and Maintenance","Yes","NE",1
+"342","8114",811430,"Footwear and Leather Goods Repair","Personal and Household Goods Repair and Maintenance","Yes","NE",1
+"343","8114",811420,"Reupholstery and Furniture Repair","Personal and Household Goods Repair and Maintenance","Yes","NE",1
+"344","8114",811490,"Other Personal and Household Goods Repair and Maintenance","Personal and Household Goods Repair and Maintenance","Yes","Unk",1
+"345","8114",811412,"Appliance Repair and Maintenance","Personal and Household Goods Repair and Maintenance","Yes","NE",1
+"346","8121",812191,"Diet and Weight Reducing Centers","Personal Care Services","No","NE",0
+"347","8121",812111,"Barber Shops","Personal Care Services","No","NE",0
+"348","8121",812113,"Nail Salons","Personal Care Services","No","NE",0
+"349","8121",812112,"Beauty Salons","Personal Care Services","No","NE",0
+"350","8121",812199,"Other Personal Care Services","Personal Care Services","No","NE",0
+"351","8122",812210,"Funeral Homes and Funeral Services","Death Care Services","Yes","E",1
+"352","8122",812220,"Cemeteries and Crematories","Death Care Services","Yes","Unk",1
+"353","8123",812320,"Drycleaning and Laundry Services (except Coin-Operated)","Drycleaning and Laundry Services","Yes","E",1
+"354","8129",812910,"Pet Care (except Veterinary) Services","Other Personal Services","No","Unk",0
+"355","8129",812930,"Parking Lots and Garages","Other Personal Services","No","Unk",0
+"356","8129",812990,"All Other Personal Services","Other Personal Services","No","Unk",0
+"357","8131",813110,"Religious Organizations","Religious Organizations","Yes","Unk",1
+"358","8132",813212,"Voluntary Health Organizations","Grantmaking and Giving Services","Yes","Unk",1
+"359","8132",813219,"Other Grantmaking and Giving Services","Grantmaking and Giving Services","Yes","Unk",1
+"360","8133",813312,"Environment, Conservation and Wildlife Organizations","Social Advocacy Organizations","Yes","Unk",1
+"361","8134",813410,"Civic and Social Organizations","Civic and Social Organizations","No","Unk",0
+"362","8139",813990,"Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)","Business, Professional, Labor, Political, and Similar Organizations","No","Unk",0
+"363","9211",921110,"Executive Offices",NA,"Yes","E",1
+"364","9211",921190,"Other General Government Support",NA,"Yes","Unk",1
+"365","9221",922160,"Fire Protection",NA,"Yes","E",1
+"366","9221",922110,"Courts",NA,"Yes","E",1
+"367","9221",922140,"Correctional Institutions",NA,"Yes","E",1
+"368","9221",922120,"Police Protection",NA,"Yes","E",1
+"369","9261",926120,"Regulation and Administration of Transportation Programs",NA,"Yes","E",1
+"370","9281",928120,"International Affairs",NA,"Yes","E",1
+"371","9281",928110,"National Security",NA,"Yes","Unk",1
