@@ -1,12 +1,14 @@
 # NAICS Fit
-# KC 4/19/2021
+# KC 4/28/2021
 
 library(readxl)
 library(tidyr)
 library(dplyr)
 
-naics <- read.csv("safegraph/naics.csv")
+naics <- read.csv("safegraph/naics_add.csv")
 key <- read_excel("safegraph/naics_processing/NAICS_key.xlsx")
+
+naics <- naics %>% select(!c(NAICS_Subgroup, naicskey, Essential, final_cat))
 
 #create 4 digit code for naics to merge with the key
 naicskey <- sapply(naics$naics_code, function(x) substring(x, first=1, last= 4))
